@@ -1,6 +1,8 @@
 # README
-![](https://img.shields.io/github/languages/code-size/mihasi0818/mihasi30?color=red&label=rails)
-![](https://img.shields.io/badge/rails-v7-red)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+![](https://img.shields.io/badge/-ruby%20v3.2.2%20-red)
+![](https://img.shields.io/badge/-rails%20v7.0.4.3-redruby)
+![](https://img.shields.io/badge/-Docker%20v20.10.22-blue)
 
 # タイトル
 "mobil legand の攻略"
