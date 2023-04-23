@@ -1,0 +1,30 @@
+<div class="ui middle aligned grid mt15">
+    <div class="column">
+      <h2 class="ui teal image header">
+        <i class="user icon"></i>
+        <div class="content">
+          パスワードの再設定
+        </div>
+      </h2>
+  
+  
+  <%= form_with(scope: :password_reset, url: password_resets_path, local: true, class: "ui form segment") do |form| %>
+  
+    <div class="field <%#= user.errors.include?(:email) ? 'error' : '' %>">
+      <%= form.label "メールアドレス" %>
+      <div class="ui left icon input">
+        <i class="envelope icon"></i>
+        <%= form.email_field :email, placeholder: "メールアドレス" %>
+      </div>
+      <%#= render 'shared/error_messages', obj: user, key: :email %>
+    </div>
+  
+    <div>
+      <%= form.submit "送信する", class: "ui teal submit button" %>
+  
+    </div>
+  
+  <% end %>
+  
+    </div>
+  </div>

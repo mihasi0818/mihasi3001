@@ -1,0 +1,13 @@
+<% if logged_in? %>
+  <% if current_user.likes.exists?(post: post) %>
+    <%= button_to "いいね解除", post_likes_path(post), form_method: :delete %>
+  <% else %>
+    <% if post %>
+      <%= button_to "いいね", post_likes_path(post), form_method: :post %>
+    <% else %>
+      <p>投稿が見つかりませんでした</p>
+    <% end %>
+  <% end %>
+<% else %>
+  <%= link_to "ログインしていいねをする", new_user_session_path %>
+<% end %>

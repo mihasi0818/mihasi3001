@@ -1,0 +1,285 @@
+<div class="select11">
+    <div class="select33">
+      <div>
+    <input class="form-check-input" type="radio" name="maker0" value="44" id="tank_98" onclick="formSwitch0()" checked/>
+    <label for="tank_98">my post</label>
+  </div>
+  <div>
+    <input class="form-check-input" type="radio" name="maker0" value="70" id="fight_99" onclick="formSwitch0()" />
+    <label for="fight_99">profile</label>
+  </div>
+    </div>
+    </div>
+  
+    <div id="user_List2">
+      <div class="container">
+        <h1> <%= @user.name %> </h1>
+        <% unless current_user == @user %>
+        <% if current_user.following?(@user) %>
+        <%= form_tag unfollow_user_path(@user), method: :delete do %>
+          <%= submit_tag "Unfollow", class: "btn btn-danger" %>
+        <% end %>
+                <% else %>
+        <%= form_tag follow_user_path(@user), method: :post do %>
+          <%= submit_tag "Follow", class: "btn btn-primary" %>
+        <% end %>
+        <% end %>
+          <% end %>
+        
+        <hr>
+        <h2> Followers </h2>
+  
+        <ul>
+          <% @user.followers.each do |follower| %>
+            <li><%= link_to follower.name, user_path(follower) %></li>
+          <% end %>
+        </ul>
+        <h2> Following </h2>
+        <ul>
+          <% @user.following.each do |following| %>
+            <li><%= link_to following.name, user_path(following) %></li>
+          <% end %>
+        </ul>
+      </div>
+    
+    
+  
+    <div class="ui middle aligned grid mt">
+      <h2 class="ui teal image header">
+        <i class="user icon"></i>
+        <div class="content">
+          <%= @user.name %>
+         
+        </div>
+      </h2>
+    </div>
+    <div class="ui middle aligned grid mt15">
+      <h2 class="ui teal image header">
+        <i class="user icon"></i>
+        <div class="content">
+          プロフィール詳細
+        </div>
+      </h2>
+  
+  
+  
+     
+      <div class="ui card">
+        <div class="image">
+          <img src="/assets/user.png">
+        </div>
+        <div class="content">
+          <p class="header"><%= @user.name %></p>
+          <div class="meta">
+            <p>開発中</p>
+          </div>
+        </div>
+      </div>
+      <div class="ui ">
+        <div class="ui card">
+          <%= render @user %>
+  
+          <div class="extra content">
+            <div class="ui two buttons">
+              <% if logged_in? && @user == current_user %>
+                <%= link_to edit_user_path(@user), class: "ui inverted green button" do %>
+                  <i class="icon edit"></i>
+                  編集する
+                <% end %>
+                <%= link_to @user, class: "ui inverted red button", data: { turbo_method: :delete, turbo_confirm: "本当に削除しますか？" } do %>
+                  <i class="icon trash alternate"></i>
+                  削除する
+                <% end %>
+                <% end %>
+            </div>
+          </div>
+        </div>
+  </div>
+  </div>
+        
+  </div>
+  
+  
+       
+      
+      
+    
+  <div class="dd">
+    <%= link_to users_path, class: "ui button" do %>
+      <i class="icon arrow alternate circle left"></i>
+      戻る
+    <% end %>
+  </div>
+  </div> 
+  
+  <div id="user_List">
+  <p><%= link_to "予定の新規追加", new_post_path , :class=>"link"%></p>
+  <p>本日の日付: <%= Date.current.strftime('%Y/%-m/%-d') %></p>
+  <p class="count">あなたの投稿件数: <%= current_user.posts.count %></p>
+  
+  
+  <%= form_tag user_path, method: 'get' do %>
+  <label>並び替え</label>
+    <!-- したのコード逆に新しいと古いがねなってしまったよ-->
+  <%= select_tag :order_by, options_for_select([['old', 'created_at_desc'], ['new', 'created_at_asc'], ['like', 'likes_desc']], params[:order_by]), include_blank: true %>
+  <%= submit_tag 'Sort' %>
+  <% end %>
+  <% @posts.each do |post| %>
+   
+  <table>
+      <thead>
+        <tr>
+         <th><%= post.created_at.strftime('%Y/%m/%d %H:%M') %></th> 
+          <th class="name"><div class="name">user名</div></th>
+          <td><div class="name"><% if current_user %>
+            <p class="user_name"><%= current_user.name %></p>
+          <% else %>
+            <p>ログアウト中</p>
+          <% end %></div></td>
+          <th><div class="size"><%= link_to "詳細", post, class: "size" %></div></th>
+  
+        </tr>
+        <tr>
+          <th>おすすめ（PICK）</th>
+          <th>有利(advantageous)</th>
+          <th class="last">不利(disadvantageous)</th>
+          <th><p><%= pluralize(post.likes.count, 'Like') %></p></th> 
+        </tr>
+      </thead>
+      
+          <tbody>
+          <tr>
+          <td><%=image_tag(post.image_url1, size: "38x38") %>
+          </td>
+          <td>
+            <%= image_tag(post.image_url2, size: "38x38") %>
+  
+            <% if post.image_url22.present? %>
+            <%= image_tag(post.image_url22, size: "38x38") %>
+          <% end %>
+          
+          <% if post.image_url23.present? %>
+          <%= image_tag(post.image_url23, size: "38x38") %>
+        <% end %>
+          </td>
+          <td class="last">
+            <%= image_tag(post.image_url3, size: "38x38") %>
+            <% if post.image_url33.present? %>
+            <%= image_tag(post.image_url33, size: "38x38") %>
+          <% end %>
+          <% if post.image_url34.present? %>
+          <%= image_tag(post.image_url34, size: "38x38") %>
+        <% end %>
+        
+          </td>
+  
+          <td>
+            <% if current_user == post.user %>
+              <%= button_to "削除", post_path(post), method: :delete, data: { confirm: "本当に削除しますか？" }, class: "btn btn-danger animated shake danger" %>
+            <% end %>
+  
+         
+        </tr>
+      </tbody>
+    </table>
+    <% end %>
+  
+    
+    <nav class="pagination justify-content-center">
+      <span class="page-item prev <%= "disabled" if @pagy.prev.nil? %>">
+        <% if @pagy.prev %>
+          <%= link_to "前", url_for(page: @pagy.prev, only_path: true), rel: "prev", class: 'page-link' %>
+        <% else %>
+          <span class="page-link disabled">前</span>
+        <% end %>
+      </span>
+      <% if @pagy.present? %>
+        <% @pagy.series.each do |item| %>
+          <% if item.is_a? Integer %>
+            <span class="page-item <%= "active" if item == @pagy.page %>"><%= link_to item, url_for(page: item, only_path: true), class: 'page-link' %></span>
+          <% else %>
+            <span class="page-item <%= "gap" %>">&#x2026;</span>
+          <% end %>
+        <% end %>
+      <% end %>
+      <span class="page-item next <%= "disabled" if @pagy.next.nil? %>">
+        <% if @pagy.next %>
+          <%= link_to "次", url_for(page: @pagy.next, only_path: true), rel: "next", class: 'page-link' %>
+        <% else %>
+          <span class="page-link disabled">次</span>
+        <% end %>
+      </span>
+    </nav>
+    
+  <%= javascript_include_tag "posts.js" %>
+  <style>
+  .radio-button-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .radio-button-form label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px; /* 任意の値に置き換える */
+  }
+  
+  .radio-button-form input[type="radio"] {
+    appearance: none;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%; 
+    border: 2px solid black; 
+  }
+  
+  .radio-button-form input[type="radio"]:checked {
+    background-color: black;
+  }
+  @media (max-width: 1500px){
+  input[type="radio"]:checked::before {
+      content: "";
+      display: inline-block;
+      width: 850px;
+      height: 850px;
+      border-radius: 50%;
+      margin-right: 10px;
+      margin-top: -204px;
+      margin-left: 97px;
+      vertical-align: middle;
+      background: radial-gradient(circle at center, #ff4800 0%, transparent 80%);
+      animation: radioCheck 0.25s ease-in-out, burn 1s infinite;
+  }
+  }
+  @keyframes burn {
+      0% {
+          box-shadow: 0px 0px 0px 0px rgba(255,72,0,0.7);
+      }
+      20% {
+          box-shadow: 0px 0px 40px 30px rgba(255,72,0,0.9);
+      }
+      40%, 100% {
+          box-shadow: 0px 0px 150px 75px rgba(255,72,0,0.9);
+      }
+      60% {
+          box-shadow: 0px 0px 110px 75px rgba(255,72,0,0.9);
+      }
+      80% {
+          box-shadow: 0px 0px 150px 140px rgba(255,72,0,0.9);
+      }
+  }
+  @media (max-width: 1500px){
+  
+  .select33{
+    display: flex;
+      align-items: baseline;
+      justify-content: center;
+  }
+  }
+  .link{
+    color: rgb(0, 167, 78);
+  }
+  
+  </style>
+  
+  

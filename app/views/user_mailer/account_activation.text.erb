@@ -1,0 +1,6 @@
+こんにちは、<%= @user.name %>さん。
+
+この度は◯◯Webサービスに仮登録いただきありがとうございます。
+つきましては、下記リンクをクリックしてアカウントを有効化してください。
+
+<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>

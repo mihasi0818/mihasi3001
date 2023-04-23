@@ -1,0 +1,10 @@
+<h1>User Authentication App</h1>
+<p>こんにちは、<%= @user.name %>さん。</p>
+<p>
+この度は◯◯Webサービスに仮登録いただきありがとうございます。
+</p>
+<p>
+つきましては、下記リンクをクリックしてアカウントを有効化してください。
+</p>
+
+<%= link_to "アカウントを有効化する", edit_account_activation_url(@user.activation_token, email: @user.email) %>

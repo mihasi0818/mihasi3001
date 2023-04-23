@@ -1,0 +1,41 @@
+<div class="ui middle aligned grid mt15">
+    <div class="column">
+      <h2 class="ui teal image header">
+        <i class="user icon"></i>
+        <div class="content">
+          パスワード再設定フォーム
+        </div>
+      </h2>
+  
+  
+  <%= form_with(model: @user, url: password_reset_path(params[:id]), local: true, class: "ui form segment") do |form| %>
+  
+    <%= hidden_field_tag :email, @user.email %>
+  
+    <div class="field <%= @user.errors.include?(:password) ? 'error' : '' %>">
+      <%= form.label "パスワード" %>
+      <div class="ui left icon input">
+        <i class="lock icon"></i>
+        <%= form.password_field :password, placeholder: "パスワード" %>
+      </div>
+      <%= render 'shared/error_messages', obj: @user, key: :password %>
+    </div>
+  
+    <div class="field <%= @user.errors.include?(:password_confirmation) ? 'error' : '' %>">
+      <%= form.label "パスワード(確認用)" %>
+      <div class="ui left icon input">
+        <i class="lock icon"></i>
+        <%= form.password_field :password_confirmation, placeholder: "パスワード(確認用)" %>
+      </div>
+      <%= render 'shared/error_messages', obj: @user, key: :password_confirmation %>
+    </div>
+  
+    <div>
+      <%= form.submit "更新する", class: "ui teal submit button" %>
+  
+    </div>
+  
+  <% end %>
+  
+    </div>
+  </div>

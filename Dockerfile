@@ -1,5 +1,4 @@
 FROM ruby:3.2.2
-
 RUN apt update -qq && apt install -y postgresql-client
 RUN mkdir /myapp
 WORKDIR /myapp

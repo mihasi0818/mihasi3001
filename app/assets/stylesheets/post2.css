@@ -1,0 +1,374 @@
+/*mage*/
+input[type=radio][value="60"]+label:before{
+    background-image: url(/images/mage/Hero041-icon.webp);
+    background-repeat: no-repeat;
+    }
+    input[type=radio][value="61"]+label:before{
+        background-image: url(/images/mage/Hero051-icon-1.webp);
+        background-repeat: no-repeat;
+        }
+
+        input[type=radio][value="62"]+label:before{
+            background-image: url(/images/mage/Hero111-icon.webp);
+            background-repeat: no-repeat;
+            }
+            input[type=radio][value="63"]+label:before{
+                background-image: url(/images/mage/Hero151-icon.webp);
+                background-repeat: no-repeat;
+                }
+                input[type=radio][value="64"]+label:before{
+                    background-image: url(/images/mage/Hero231-icon.webp);
+                    background-repeat: no-repeat;
+                    }
+                    input[type=radio][value="65"]+label:before{
+                        background-image: url(/images/mage/Hero331-icon.webp);
+                        background-repeat: no-repeat;
+                        }
+                        input[type=radio][value="66"]+label:before{
+                            background-image: url(/images/mage/Hero361-icon.webp);
+                            background-repeat: no-repeat;
+                            }
+                            input[type=radio][value="67"]+label:before{
+                                background-image: url(/images/mage/Hero421-icon.webp);
+                                background-repeat: no-repeat;
+                                }
+                                input[type=radio][value="68"]+label:before{
+                                    background-image: url(/images/mage/Hero461-icon.webp);
+                                    background-repeat: no-repeat;
+                                    }
+                                    input[type=radio][value="69"]+label:before{
+                                        background-image: url(/images/mage/Hero521-icon.webp);
+                                        background-repeat: no-repeat;
+                                        }
+                                        input[type=radio][value="70"]+label:before{
+                                            background-image: url(/images/mage/Hero571-icon.webp);
+                                            background-repeat: no-repeat;
+                                            }
+                                            input[type=radio][value="71"]+label:before{
+                                                background-image: url(/images/mage/Hero611-icon.webp);
+                                                background-repeat: no-repeat;
+                                                }
+                                                input[type=radio][value="72"]+label:before{
+                                                    background-image: url(/images/mage/Hero631-icon.webp);
+                                                    background-repeat: no-repeat;
+                                                    }
+                                                    input[type=radio][value="74"]+label:before{
+                                                        background-image: url(/images/mage/Hero661-icon.webp);
+                                                        background-repeat: no-repeat;
+                                                        }
+                                                        input[type=radio][value="75"]+label:before{
+                                                            background-image: url(/images/mage/Hero681-icon.webp);
+                                                            background-repeat: no-repeat;
+                                                            }
+                                                            input[type=radio][value="76"]+label:before{
+                                                                background-image: url(/images/mage/Hero711-icon.webp);
+                                                                background-repeat: no-repeat;
+                                                                }
+                                                               input[type=radio][value="77"]+label:before{
+                                                                    background-image: url(/images/mage/Hero731-icon.webp);
+                                                                    background-repeat: no-repeat;
+                                                                    }
+                                                                    input[type=radio][value="78"]+label:before{
+                                                                        background-image: url(/images/mage/Hero751-icon.webp);
+                                                                        background-repeat: no-repeat;
+                                                                        }
+                                                                        input[type=radio][value="79"]+label:before{
+                                                                            background-image: url(/images/mage/Hero811-icon.webp);
+                                                                            background-repeat: no-repeat;
+                                                                            }
+                                                                            input[type=radio][value="80"]+label:before{
+                                                                                background-image: url(/images/mage/Hero861-icon.webp);
+                                                                                background-repeat: no-repeat;
+                                                                                }
+                                                                                input[type=radio][value="81"]+label:before{
+                                                                                    background-image: url(/images/mage/Hero911-icon.webp);
+                                                                                    background-repeat: no-repeat;
+                                                                                    }
+                                                                                    input[type=radio][value="82"]+label:before{
+                                                                                        background-image: url(/images/mage/Hero961-icon.webp);
+                                                                                        background-repeat: no-repeat;
+                                                                                        }
+                                                                                        input[type=radio][value="83"]+label:before{
+                                                                                            background-image: url(/images/mage/Hero1011-icon.webp);
+                                                                                            background-repeat: no-repeat;
+                                                                                            }
+                                                                                            input[type=radio][value="84"]+label:before{
+                                                                                                background-image: url(/images/mage/Hero1151-icon.webp);
+                                                                                                background-repeat: no-repeat;
+                                                                                                }
+                                                                                                input[type=radio][value="85"]+label:before{
+                                                                                                    background-image: url(/images/mage/Hero1161-icon.webp);
+                                                                                                    background-repeat: no-repeat;
+                                                                                                    }
+                                                                                                    input[type=radio][value="86"]+label:before{
+                                                                                                        background-image: url(/images/mage/Hero1191-icon.webp);
+                                                                                                        background-repeat: no-repeat;
+                                                                                                        }
+  /*asasin*/
+
+  input[type=radio][value="90"]+label:before{
+    background-image: url(/images/asasin/Hero031-icon.webp);
+    background-repeat: no-repeat;
+    }   
+    
+    
+    input[type=radio][value="91"]+label:before{
+        background-image: url(/images/asasin/Hero071-icon.webp);
+        background-repeat: no-repeat;
+        }         
+        input[type=radio][value="92"]+label:before{
+            background-image: url(/images/asasin/Hero081-icon.webp);
+            background-repeat: no-repeat;
+            }         
+            input[type=radio][value="93"]+label:before{
+                background-image: url(/images/asasin/Hero161-icon.webp);
+                background-repeat: no-repeat;
+                }         
+                input[type=radio][value="94"]+label:before{
+                    background-image: url(/images/asasin/Hero171-icon-1.webp);
+                    background-repeat: no-repeat;
+                    }         
+                                                                                                
+                    input[type=radio][value="95"]+label:before{
+                        background-image: url(/images/asasin/Hero211-icon.webp);
+                        background-repeat: no-repeat;
+                        }         
+                        input[type=radio][value="96"]+label:before{
+                            background-image: url(/images/asasin/Hero241-icon.webp);
+                            background-repeat: no-repeat;
+                            }         
+                            input[type=radio][value="97"]+label:before{
+                                background-image: url(/images/asasin/Hero301-icon.webp);
+                                background-repeat: no-repeat;
+                                }         
+                                input[type=radio][value="98"]+label:before{
+                                    background-image: url(/images/asasin/Hero421-icon.webp);
+                                    background-repeat: no-repeat;
+                                    }    
+                                       input[type=radio][value="99"]+label:before{
+                                        background-image: url(/images/asasin/Hero471-icon.webp);
+                                        background-repeat: no-repeat;
+                                        }           
+                                        input[type=radio][value="99"]+label:before{
+                                            background-image: url(/images/asasin/Hero511-icon.webp);
+                                            background-repeat: no-repeat;
+                                            }        
+                                            input[type=radio][value="100"]+label:before{
+                                                background-image: url(/images/asasin/Hero531-icon.webp);
+                                                background-repeat: no-repeat;
+                                                }        
+                                                input[type=radio][value="101"]+label:before{
+                                                    background-image: url(/images/asasin/Hero561-icon.webp);
+                                                    background-repeat: no-repeat;
+                                                    }        
+                                                    input[type=radio][value="102"]+label:before{
+                                                        background-image: url(/images/asasin/Hero631-icon.webp);
+                                                        background-repeat: no-repeat;
+                                                        }        
+                                                        input[type=radio][value="103"]+label:before{
+                                                            background-image: url(/images/asasin/Hero691-icon.webp);
+                                                            background-repeat: no-repeat;
+                                                            }        
+                                                            input[type=radio][value="104"]+label:before{
+                                                                background-image: url(/images/asasin/Hero751-icon.webp);
+                                                                background-repeat: no-repeat;
+                                                                }        
+                                                                input[type=radio][value="105"]+label:before{
+                                                                    background-image: url(/images/asasin/Hero841-icon.webp);
+                                                                    background-repeat: no-repeat;
+                                                                    }        
+                                                                    input[type=radio][value="106"]+label:before{
+                                                                        background-image: url(/images/asasin/Hero971-icon.webp);
+                                                                        background-repeat: no-repeat;
+                                                                        }      
+                                                                        input[type=radio][value="107"]+label:before{
+                                                                            background-image: url(/images/asasin/Hero1021-icon.webp);
+                                                                            background-repeat: no-repeat;
+                                                                            }    
+                                                                            input[type=radio][value="108"]+label:before{
+                                                                                background-image: url(/images/asasin/Hero1091-icon.webp);
+                                                                                background-repeat: no-repeat;
+                                                                                }      
+                                                                                input[type=radio][value="109"]+label:before{
+                                                                                    background-image: url(/images/asasin/Hero1181-icon.webp);
+                                                                                    background-repeat: no-repeat;
+                                                                                    }      
+                                                                                    input[type=radio][value="110"]+label:before{
+                                                                                        background-image: url(/images/asasin/Hero1201-icon.webp);
+                                                                                        background-repeat: no-repeat;
+                                                                                        }  
+/*hanter120~*/    
+
+input[type=radio][value="120"]+label:before{
+    background-image: url(/images/hanter/Hero011-icon.webp);
+    background-repeat: no-repeat;
+    }  
+    input[type=radio][value="121"]+label:before{
+        background-image: url(/images/hanter/Hero121-icon.webp);
+        background-repeat: no-repeat
+        } 
+         input[type=radio][value="122"]+label:before{
+            background-image: url(/images/hanter/Hero131-icon.webp);
+            background-repeat: no-repeat;
+            } 
+             input[type=radio][value="123"]+label:before{
+                background-image: url(/images/hanter/Hero181-icon.webp);
+                background-repeat: no-repeat;
+                } 
+                 input[type=radio][value="124"]+label:before{
+                    background-image: url(/images/hanter/Hero301-icon.webp);
+                    background-repeat: no-repeat;
+                    } 
+                    input[type=radio][value="125"]+label:before{
+                        background-image: url(/images/hanter/Hero311-icon.webp);
+                        background-repeat: no-repeat;
+                        }  
+                        input[type=radio][value="126"]+label:before{
+                            background-image: url(/images/hanter/Hero391-icon.webp);
+                            background-repeat: no-repeat;
+                            }  
+                            input[type=radio][value="127"]+label:before{
+                                background-image: url(/images/hanter/Hero401-icon.webp);
+                                background-repeat: no-repeat;
+                                }  
+                                input[type=radio][value="128"]+label:before{
+                                    background-image: url(/images/hanter/Hero431-icon.webp);
+                                    background-repeat: no-repeat;
+                                    }  
+                                    input[type=radio][value="129"]+label:before{
+                                        background-image: url(/images/hanter/Hero531-icon.webp);
+                                        background-repeat: no-repeat;
+                                        }  
+                                        input[type=radio][value="130"]+label:before{
+                                            background-image: url(/images/hanter/Hero601-icon.webp);
+                                            background-repeat: no-repeat;
+                                            }  
+                                            input[type=radio][value="131"]+label:before{
+                                                background-image: url(/images/hanter/Hero711-icon.webp);
+                                                background-repeat: no-repeat;
+                                                }  
+                                                input[type=radio][value="132"]+label:before{
+                                                    background-image: url(/images/hanter/Hero791-icon.webp);
+                                                    background-repeat: no-repeat;
+                                                    }  
+                                                    input[type=radio][value="133"]+label:before{
+                                                        background-image: url(/images/hanter/Hero891-icon.webp);
+                                                        background-repeat: no-repeat;
+                                                        }  
+                                                        input[type=radio][value="134"]+label:before{
+                                                            background-image: url(/images/hanter/Hero941-icon.webp);
+                                                            background-repeat: no-repeat;
+                                                            }  
+                                                            input[type=radio][value="135"]+label:before{
+                                                                background-image: url(/images/hanter/Hero1001-icon.webp);
+                                                                background-repeat: no-repeat;
+                                                                }  
+                                                                input[type=radio][value="136"]+label:before{
+                                                                    background-image: url(/images/hanter/Hero1051-icon.webp);
+                                                                    background-repeat: no-repeat;
+                                                                    }  
+                                                                    input[type=radio][value="137"]+label:before{
+                                                                        background-image: url(/images/hanter/Hero1071-icon.webp);
+                                                                        background-repeat: no-repeat;
+                                                                        }  
+                                                                        input[type=radio][value="138"]+label:before{
+                                                                            background-image: url(/images/hanter/Hero1071-icon.webp);
+                                                                            background-repeat: no-repeat;
+                                                                            }  
+                                                                            input[type=radio][value="139"]+label:before{
+                                                                            background-image: url(/images/hanter/Hero1141-icon.webp);
+                                                                                background-repeat: no-repeat;
+                                                                                }  
+                    
+    /*support140~*/     
+    input[type=radio][value="140"]+label:before{
+        background-image: url(/images/support/Hero051-icon.webp);
+        background-repeat: no-repeat;
+        }
+        input[type=radio][value="141"]+label:before{
+            background-image: url(/images/support/Hero061-icon.webp);
+            background-repeat: no-repeat;
+            }
+            input[type=radio][value="142"]+label:before{
+                background-image: url(/images/support/Hero091-icon.webp);
+                background-repeat: no-repeat;
+                }
+                input[type=radio][value="143"]+label:before{
+                    background-image: url(/images/support/Hero101-icon.webp);
+                    background-repeat: no-repeat;
+                    }
+                    input[type=radio][value="144"]+label:before{
+                        background-image: url(/images/support/Hero141-icon.webp);
+                        background-repeat: no-repeat;
+                        }
+                        input[type=radio][value="145"]+label:before{
+                            background-image: url(/images/support/Hero191-icon.webp);
+                            background-repeat: no-repeat;
+                            }
+                            input[type=radio][value="146"]+label:before{
+                                background-image: url(/images/support/Hero201-icon.webp);
+                                background-repeat: no-repeat;
+                                }
+                                input[type=radio][value="147"]+label:before{
+                                    background-image: url(/images/support/Hero341-icon-2.webp);
+                                    background-repeat: no-repeat;
+                                    }
+                                    input[type=radio][value="148"]+label:before{
+                                        background-image: url(/images/support/Hero481-icon.webp);
+                                        background-repeat: no-repeat;
+                                        }
+                                        input[type=radio][value="149"]+label:before{
+                                            background-image: url(/images/support/Hero551-icon.webp);
+                                            background-repeat: no-repeat;
+                                            }
+                                            input[type=radio][value="150"]+label:before{
+                                                background-image: url(/images/support/Hero621-icon.webp);
+                                                background-repeat: no-repeat;
+                                                }
+                                                input[type=radio][value="151"]+label:before{
+                                                    background-image: url(/images/support/Hero743-icon.webp);
+                                                    background-repeat: no-repeat;
+                                                    }
+                                                    input[type=radio][value="152"]+label:before{
+                                                        background-image: url(/images/support/Hero921-icon.webp);
+                                                        background-repeat: no-repeat;
+                                                        }
+                                                        input[type=radio][value="153"]+label:before{
+                                                            background-image: url(/images/support/Hero931-icon.webp);
+                                                            background-repeat: no-repeat;
+                                                            }
+                                                            input[type=radio][value="154"]+label:before{
+                                                                background-image: url(/images/support/Hero1021-icon.webp);
+                                                                background-repeat: no-repeat;
+                                                                }
+                                                                input[type=radio][value="155"]+label:before{
+                                                                    background-image: url(/images/support/Hero1121-icon.webp);
+                                                                    background-repeat: no-repeat;
+                                                                    }
+
+                                                                    .box-login{
+                                                                        color:rgb(0, 0, 255);
+                                                                        padding: 20px;
+                                                                        font-size: 17px;
+                                                                        }        
+                                                                       
+                                                                        .box-login2{
+                                                                         display: flex;
+                                                                          padding-bottom: 10px;
+                                                                           margin-top: 20px;
+                                                                           }
+                                                                                   
+                                                                              
+                                                                    .box-login2{
+                                                                        color:rgb(0, 0, 255);
+                                                                       font-size: 20px;
+                                                                        }      
+                                                                     
+ /* スマホ */
+@media (max-width: 599px) {
+    .box-login{
+        display: flex;
+    }
+  }                     
+
+  

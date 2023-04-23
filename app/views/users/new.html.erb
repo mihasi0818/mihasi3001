@@ -1,0 +1,17 @@
+<div class="ui middle aligned grid mt15">
+    <div class="column">
+      <h2 class="ui teal image header">
+        <i class="user icon"></i>
+        <div class="content">
+          アカウント新規作成
+        </div>
+      </h2>
+  
+  <%= render "form", user: @user %>
+  
+      <div class="ui message">
+        すでにアカウントをお持ちですか？ <%= link_to "ログイン", login_path %>
+      </div>
+    </div>
+  </div>
+  

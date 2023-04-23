@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Myapp</title>
+    <title>みんなでモバレ攻略</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <%= favicon_link_tag('favicon.ico') %>
   </head>
 
   <body>
-    <%= yield %>
+    <%= render 'layouts/navigation' %>
+      <%= render 'shared/flash_messages' %>
+      <%= yield %>
+      <div class="ui container">
+
+      <div class="ui segment">
+        <%= debug(params) if Rails.env.development? %><br>
+        セッションID => <%= session[:user_id] %>
+      </div>
+  </div>
+ 
+  
+ <footer>
+   <span>&copy; 2023 Shanghai Moonton Technology Co., Ltd.</span>
+   <a href="https://i.pinimg.com/originals/8a/09/6c/8a096c4c03da85acd5731083c2d57177.jpg" title="引用元1へ移動">
+     引用元1
+     <i class="fa fa-external-link" aria-hidden="true"></i>
+   </a>
+ </footer>
+ 
+ <footer>
+   <span>&copy; 2023 Shanghai Moonton Technology Co., Ltd.</span>
+   <a href="https://i.pinimg.com/originals/2a/50/3b/2a503b05ae75cd9a3a149ce905250333.jpg" title="引用元2へ移動">
+     引用元2
+     <i class="fa fa-external-link" aria-hidden="true"></i>
+   </a>
+ </footer>
+ 
+ <footer>
+   <span>&copy; 2023 Shanghai Moonton Technology Co., Ltd. </span>
+ </footer>
+ 
   </body>
 </html>
+<style>
+  
+</style>
+
+
