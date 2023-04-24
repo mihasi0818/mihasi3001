@@ -16502,3 +16502,65 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 93ms (Views: 80.3ms | ActiveRecord: 4.8ms | Allocations: 32697)
 
 
+Started GET "/" for 172.20.0.1 at 2023-04-24 00:18:24 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  [1m[36mPost Count (9.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:8:in `paginate_posts'
+  [1m[36mCACHE Post Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/controllers/posts_controller.rb:34:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."created_at" DESC LIMIT $2[0m  [["id", "iyPYzhQJ9hF9fbuq"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:12:in `current_user'
+  [1m[36mCACHE Post Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:18
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/posts/index.html.erb:27
+  [1m[36mLike Count (7.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 14]]
+  ↳ app/views/posts/index.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."created_at" DESC LIMIT $2[0m  [["id", "iyPYzhQJ9hF9fbuq"], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mLike Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 12]]
+  ↳ app/views/posts/index.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."created_at" DESC LIMIT $2[0m  [["id", "iyPYzhQJ9hF9fbuq"], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mLike Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 10]]
+  ↳ app/views/posts/index.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."created_at" DESC LIMIT $2[0m  [["id", "iyPYzhQJ9hF9fbuq"], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mLike Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 9]]
+  ↳ app/views/posts/index.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."created_at" DESC LIMIT $2[0m  [["id", "iyPYzhQJ9hF9fbuq"], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mLike Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 8]]
+  ↳ app/views/posts/index.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."created_at" DESC LIMIT $2[0m  [["id", "iyPYzhQJ9hF9fbuq"], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mLike Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 7]]
+  ↳ app/views/posts/index.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."created_at" DESC LIMIT $2[0m  [["id", "iyPYzhQJ9hF9fbuq"], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mLike Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 6]]
+  ↳ app/views/posts/index.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."created_at" DESC LIMIT $2[0m  [["id", "iyPYzhQJ9hF9fbuq"], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mLike Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 5]]
+  ↳ app/views/posts/index.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."created_at" DESC LIMIT $2[0m  [["id", "iyPYzhQJ9hF9fbuq"], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mLike Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 4]]
+  ↳ app/views/posts/index.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."created_at" DESC LIMIT $2[0m  [["id", "iyPYzhQJ9hF9fbuq"], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mLike Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 3]]
+  ↳ app/views/posts/index.html.erb:45
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."created_at" DESC LIMIT $2[0m  [["id", "iyPYzhQJ9hF9fbuq"], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  Rendered posts/index.html.erb within layouts/application (Duration: 719.5ms | Allocations: 23275)
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 387)
+  Rendered shared/_flash_messages.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 830.8ms | Allocations: 31679)
+Completed 200 OK in 1016ms (Views: 822.6ms | ActiveRecord: 75.1ms | Allocations: 35855)
+
+
