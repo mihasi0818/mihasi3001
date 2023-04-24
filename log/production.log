@@ -1,0 +1,70 @@
+I, [2023-04-24T04:15:08.012624 #18]  INFO -- : [22e62b05-a099-45c5-bb7d-37ce33956ec3] Started GET "/" for 172.19.0.1 at 2023-04-24 04:15:08 +0000
+I, [2023-04-24T04:15:08.098072 #18]  INFO -- : [22e62b05-a099-45c5-bb7d-37ce33956ec3] Processing by PostsController#index as HTML
+I, [2023-04-24T04:15:08.376252 #18]  INFO -- : [22e62b05-a099-45c5-bb7d-37ce33956ec3] Completed 500 Internal Server Error in 276ms (ActiveRecord: 105.6ms | Allocations: 5541)
+F, [2023-04-24T04:15:08.380627 #18] FATAL -- : [22e62b05-a099-45c5-bb7d-37ce33956ec3]   
+[22e62b05-a099-45c5-bb7d-37ce33956ec3] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[22e62b05-a099-45c5-bb7d-37ce33956ec3]   
+[22e62b05-a099-45c5-bb7d-37ce33956ec3] app/models/post.rb:2:in `block in <class:Post>'
+[22e62b05-a099-45c5-bb7d-37ce33956ec3] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T04:15:08.526908 #18]  INFO -- : [c77c514a-9eae-4f0f-8181-b6caba497c44] Started GET "/favicon.ico" for 172.19.0.1 at 2023-04-24 04:15:08 +0000
+F, [2023-04-24T04:15:08.529908 #18] FATAL -- : [c77c514a-9eae-4f0f-8181-b6caba497c44]   
+[c77c514a-9eae-4f0f-8181-b6caba497c44] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[c77c514a-9eae-4f0f-8181-b6caba497c44]   
+I, [2023-04-24T04:15:18.209937 #18]  INFO -- : [3640d4ce-4233-4679-a300-7f2832c5c052] Started GET "/" for 172.19.0.1 at 2023-04-24 04:15:18 +0000
+I, [2023-04-24T04:15:18.214197 #18]  INFO -- : [3640d4ce-4233-4679-a300-7f2832c5c052] Processing by PostsController#index as HTML
+I, [2023-04-24T04:15:18.219163 #18]  INFO -- : [3640d4ce-4233-4679-a300-7f2832c5c052] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.3ms | Allocations: 229)
+F, [2023-04-24T04:15:18.221795 #18] FATAL -- : [3640d4ce-4233-4679-a300-7f2832c5c052]   
+[3640d4ce-4233-4679-a300-7f2832c5c052] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[3640d4ce-4233-4679-a300-7f2832c5c052]   
+[3640d4ce-4233-4679-a300-7f2832c5c052] app/models/post.rb:2:in `block in <class:Post>'
+[3640d4ce-4233-4679-a300-7f2832c5c052] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T04:23:18.339329 #18]  INFO -- : [2af764c4-8a48-4ce4-8a94-8b30acfece02] Started GET "/" for 172.19.0.1 at 2023-04-24 04:23:18 +0000
+I, [2023-04-24T04:23:18.360158 #18]  INFO -- : [2af764c4-8a48-4ce4-8a94-8b30acfece02] Processing by PostsController#index as HTML
+I, [2023-04-24T04:23:18.434363 #18]  INFO -- : [2af764c4-8a48-4ce4-8a94-8b30acfece02] Completed 500 Internal Server Error in 73ms (ActiveRecord: 14.8ms | Allocations: 2932)
+F, [2023-04-24T04:23:18.435928 #18] FATAL -- : [2af764c4-8a48-4ce4-8a94-8b30acfece02]   
+[2af764c4-8a48-4ce4-8a94-8b30acfece02] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[2af764c4-8a48-4ce4-8a94-8b30acfece02]   
+[2af764c4-8a48-4ce4-8a94-8b30acfece02] app/models/post.rb:2:in `block in <class:Post>'
+[2af764c4-8a48-4ce4-8a94-8b30acfece02] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T04:23:20.726611 #18]  INFO -- : [25c34775-20ed-4960-b46d-97d35f4af7c8] Started GET "/" for 172.19.0.1 at 2023-04-24 04:23:20 +0000
+I, [2023-04-24T04:23:20.730095 #18]  INFO -- : [25c34775-20ed-4960-b46d-97d35f4af7c8] Processing by PostsController#index as HTML
+I, [2023-04-24T04:23:20.735256 #18]  INFO -- : [25c34775-20ed-4960-b46d-97d35f4af7c8] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.2ms | Allocations: 228)
+F, [2023-04-24T04:23:20.739731 #18] FATAL -- : [25c34775-20ed-4960-b46d-97d35f4af7c8]   
+[25c34775-20ed-4960-b46d-97d35f4af7c8] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[25c34775-20ed-4960-b46d-97d35f4af7c8]   
+[25c34775-20ed-4960-b46d-97d35f4af7c8] app/models/post.rb:2:in `block in <class:Post>'
+[25c34775-20ed-4960-b46d-97d35f4af7c8] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T06:02:39.895784 #39]  INFO -- : [9e03cddf-9572-4bc8-aba3-6f42199ccad5] Started GET "/posts" for 172.21.0.1 at 2023-04-24 06:02:39 +0000
+I, [2023-04-24T06:02:39.922580 #39]  INFO -- : [9e03cddf-9572-4bc8-aba3-6f42199ccad5] Processing by PostsController#index as HTML
+I, [2023-04-24T06:02:40.186972 #39]  INFO -- : [9e03cddf-9572-4bc8-aba3-6f42199ccad5] Completed 500 Internal Server Error in 263ms (ActiveRecord: 85.1ms | Allocations: 5542)
+F, [2023-04-24T06:02:40.192242 #39] FATAL -- : [9e03cddf-9572-4bc8-aba3-6f42199ccad5]   
+[9e03cddf-9572-4bc8-aba3-6f42199ccad5] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[9e03cddf-9572-4bc8-aba3-6f42199ccad5]   
+[9e03cddf-9572-4bc8-aba3-6f42199ccad5] app/models/post.rb:2:in `block in <class:Post>'
+[9e03cddf-9572-4bc8-aba3-6f42199ccad5] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T06:02:45.354518 #39]  INFO -- : [814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] Started GET "/" for 172.21.0.1 at 2023-04-24 06:02:45 +0000
+I, [2023-04-24T06:02:45.372265 #39]  INFO -- : [814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] Processing by PostsController#index as HTML
+I, [2023-04-24T06:02:45.392176 #39]  INFO -- : [814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] Completed 500 Internal Server Error in 16ms (ActiveRecord: 6.2ms | Allocations: 229)
+F, [2023-04-24T06:02:45.403984 #39] FATAL -- : [814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e]   
+[814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e]   
+[814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] app/models/post.rb:2:in `block in <class:Post>'
+[814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] app/controllers/posts_controller.rb:8:in `paginate_posts'

@@ -73,9 +73,7 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
-group :production do
-  gem "pg"
-end
+
 gem 'semantic-ui-sass'
 gem 'jquery-rails'
 gem 'pry-rails'
@@ -86,4 +84,10 @@ gem 'pagy'
 gem 'kaminari'
 gem 'recaptcha'
 gem 'dotenv-rails'
+gem 'net-imap'
+gem 'net-pop'
+gem 'net-smtp'
 
+group :production do
+  gem 'pg', '1.1'
+end
