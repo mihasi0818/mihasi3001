@@ -87,7 +87,4 @@ gem 'dotenv-rails'
 gem 'net-imap'
 gem 'net-pop'
 gem 'net-smtp'
-group :production do
-  gem 'pg', '1.1'
-end
-
+gem 'pg'
