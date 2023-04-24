@@ -68,3 +68,43 @@ LINE 9:  WHERE a.attrelid = '"posts"'::regclass
 [814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e]   
 [814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] app/models/post.rb:2:in `block in <class:Post>'
 [814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T07:15:44.324771 #37]  INFO -- : [de005caa-92c0-4a68-b33f-a3a77855b600] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:44 +0000
+I, [2023-04-24T07:15:44.365521 #37]  INFO -- : [de005caa-92c0-4a68-b33f-a3a77855b600] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:44.739172 #39]  INFO -- : [a535b3c8-02f7-42a1-bc2e-c16a2fc417f8] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:44 +0000
+I, [2023-04-24T07:15:44.752492 #39]  INFO -- : [a535b3c8-02f7-42a1-bc2e-c16a2fc417f8] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:44.991270 #65]  INFO -- : [3e73a43d-3ed7-4056-a5f0-9be1a96fe37b] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:44 +0000
+I, [2023-04-24T07:15:45.011350 #65]  INFO -- : [3e73a43d-3ed7-4056-a5f0-9be1a96fe37b] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:45.194766 #79]  INFO -- : [8c995092-959b-4694-ac31-fcdd118d431c] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:45 +0000
+I, [2023-04-24T07:15:45.216360 #79]  INFO -- : [8c995092-959b-4694-ac31-fcdd118d431c] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:45.385367 #93]  INFO -- : [746ef61d-0e8b-4d66-908c-17151c4e2010] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:45 +0000
+I, [2023-04-24T07:15:45.404632 #93]  INFO -- : [746ef61d-0e8b-4d66-908c-17151c4e2010] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:45.544640 #107]  INFO -- : [8e120d60-b3cf-4d45-80eb-0ccf61ef671e] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:45 +0000
+I, [2023-04-24T07:15:45.566810 #107]  INFO -- : [8e120d60-b3cf-4d45-80eb-0ccf61ef671e] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:45.731323 #121]  INFO -- : [26bb70f4-42d9-4ec1-80fb-f85738c1b406] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:45 +0000
+I, [2023-04-24T07:15:45.751349 #121]  INFO -- : [26bb70f4-42d9-4ec1-80fb-f85738c1b406] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:45.892101 #135]  INFO -- : [201be508-7847-4f22-8041-2cd483310654] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:45 +0000
+I, [2023-04-24T07:15:45.911981 #135]  INFO -- : [201be508-7847-4f22-8041-2cd483310654] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:46.054736 #149]  INFO -- : [7c7e6ad3-6d41-455a-a82d-9e89512ca770] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:46 +0000
+I, [2023-04-24T07:15:46.073894 #149]  INFO -- : [7c7e6ad3-6d41-455a-a82d-9e89512ca770] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:46.226801 #163]  INFO -- : [80c91d00-4989-485e-91e0-930ea813c5dd] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:46 +0000
+I, [2023-04-24T07:15:46.247871 #163]  INFO -- : [80c91d00-4989-485e-91e0-930ea813c5dd] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:49.676044 #191]  INFO -- : [3f4c2ee3-d940-4b0b-a073-00c35ec68eaf] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:49 +0000
+I, [2023-04-24T07:15:49.697538 #191]  INFO -- : [3f4c2ee3-d940-4b0b-a073-00c35ec68eaf] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:49.960435 #177]  INFO -- : [44b48755-9566-4f49-a634-0983c80ae4a9] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:49 +0000
+I, [2023-04-24T07:15:49.973907 #177]  INFO -- : [44b48755-9566-4f49-a634-0983c80ae4a9] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.157609 #205]  INFO -- : [f932e4bc-e819-4295-b470-3fb30c1e3192] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.167339 #205]  INFO -- : [f932e4bc-e819-4295-b470-3fb30c1e3192] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.329508 #219]  INFO -- : [2ad39bd6-f72b-422f-8b95-888fb7697907] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.339071 #219]  INFO -- : [2ad39bd6-f72b-422f-8b95-888fb7697907] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.492233 #233]  INFO -- : [2e0442b9-c4bd-4b9c-8005-3df39fe11011] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.501769 #233]  INFO -- : [2e0442b9-c4bd-4b9c-8005-3df39fe11011] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.655076 #247]  INFO -- : [901ef42d-a11c-453b-b72a-7211d1fa9e45] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.664812 #247]  INFO -- : [901ef42d-a11c-453b-b72a-7211d1fa9e45] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.813856 #261]  INFO -- : [9c52c374-ad9f-4db1-8bc6-e5a8a9ac4b55] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.823340 #261]  INFO -- : [9c52c374-ad9f-4db1-8bc6-e5a8a9ac4b55] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.971609 #275]  INFO -- : [7a87b38e-bf8c-4576-ad58-7c96311bac0c] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.981934 #275]  INFO -- : [7a87b38e-bf8c-4576-ad58-7c96311bac0c] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:51.121464 #289]  INFO -- : [b9e0ef91-08fd-4f91-ac0d-cad0efda4556] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:51 +0000
+I, [2023-04-24T07:15:51.131006 #289]  INFO -- : [b9e0ef91-08fd-4f91-ac0d-cad0efda4556] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:51.270254 #303]  INFO -- : [91fbfa53-37b5-4509-8685-ea66242f7b7c] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:51 +0000
+I, [2023-04-24T07:15:51.279782 #303]  INFO -- : [91fbfa53-37b5-4509-8685-ea66242f7b7c] Processing by PostsController#index as HTML
