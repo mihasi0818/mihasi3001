@@ -2,23 +2,29 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-
+  host: <%= ENV['DATABASE_URL'].split(/[@\/]/)[3] %>
+  username: <%= ENV['DATABASE_URL'].split(/[@\/]/)[1] %>
+  password: <%= ENV['DATABASE_URL'].split(/[@\/]/)[2] %>
+  database: <%= ENV['DATABASE_URL'].split(/[@\/]/)[4] %>
+  
 development:
   adapter: postgresql
   encoding: unicode
   database: myapp_development
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: localhost
+  username: myapp
+  password: password
 
 test:
   adapter: postgresql
   encoding: unicode
   database: myapp_test
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: localhost
+  username: myapp
+  password: password
 
 production:
-  encoding: unicode
-  adapter: postgresql
-  database: <%= ENV['APP_DATABASE'] %>
-  username: <%= ENV['APP_DATABASE_USERNAME'] %>
-  password: <%= ENV['APP_DATABASE_PASSWORD'] %>
-  host: <%= ENV['APP_DATABASE_HOST'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>

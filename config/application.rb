@@ -15,7 +15,7 @@ module Myapp
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
     config.x.copyright_holder = 'Copyright (c) 2023 Shanghai Moonton Technology Co., Ltd.'
-
+    config.active_record.legacy_connection_handling = false
     config.time_zone = "Tokyo"
     config.i18n.default_locale = :ja
     config.action_view.field_error_proc = Proc.new { |html_tag, instance| html_tag }

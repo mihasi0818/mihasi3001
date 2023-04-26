@@ -87,4 +87,6 @@ gem 'dotenv-rails'
 gem 'net-imap'
 gem 'net-pop'
 gem 'net-smtp'
-gem 'pg'
+gem 'pg', '~> 1.3.0'
+gem 'puma_worker_killer'
+gem 'rails_12factor', group: :production
