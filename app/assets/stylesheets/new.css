@@ -83,104 +83,104 @@ input[type=radio]+label:before {
   
   /*tank*/
   
-  input[type=radio][value="tank10"]+label:before {
+  input[type=radio][value="10"]+label:before {
     background-image: url(/images/Tank/Hero041-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="tank11"]+label:before {
+  input[type=radio][value="11"]+label:before {
     background-image: url(/images/Tank/Hero061-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="tank12"]+label:before {
+  input[type=radio][value="12"]+label:before {
     background-image: url(/images/Tank/Hero091-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="tank13"]+label:before {
+  input[type=radio][value="13"]+label:before {
     background-image: url(/images/Tank/Hero101-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="tank14"]+label:before {
+  input[type=radio][value="14"]+label:before {
     background-image: url(/images/Tank/Hero191-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="tank15"]+label:before {
+  input[type=radio][value="15"]+label:before {
     background-image: url(/images/Tank/Hero201-icon.webp);
     background-repeat: no-repeat;
   }
-  input[type=radio][value="tank16"]+label:before {
+  input[type=radio][value="16"]+label:before {
     background-image: url(/images/Tank/Hero291-icon.webp);
     background-repeat: no-repeat;
   }
-  input[type=radio][value="tank17"]+label:before {
+  input[type=radio][value="17"]+label:before {
     background-image: url(/images/Tank/Hero321-icon.webp);
     background-repeat: no-repeat;
   }
   
   
-  input[type=radio][value="tank18"]+label:before {
+  input[type=radio][value="18"]+label:before {
     background-image: url(/images/Tank/Hero351-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="tank19"]+label:before {
+  input[type=radio][value="19"]+label:before {
     background-image: url(/images/Tank/Hero411-icon.webp);
     background-repeat: no-repeat;
   }
   
   
   
-  input[type=radio][value="tank20"]+label:before {
+  input[type=radio][value="20"]+label:before {
     background-image: url(/images/Tank/Hero491-icon.webp);
     background-repeat: no-repeat;
   }
-  input[type=radio][value="tank21"]+label:before {
+  input[type=radio][value="21"]+label:before {
     background-image: url(/images/Tank/Hero591-icon.webp);
     background-repeat: no-repeat;
   }
-  input[type=radio][value="tank22"]+label:before {
+  input[type=radio][value="22"]+label:before {
     background-image: url(/images/Tank/Hero701-icon.webp);
     background-repeat: no-repeat;
   }
-  input[type=radio][value="tank23"]+label:before {
+  input[type=radio][value="23"]+label:before {
     background-image: url(/images/Tank/Hero781-icon.webp);
     background-repeat: no-repeat;
   }
-  input[type=radio][value="tank24"]+label:before {
+  input[type=radio][value="24"]+label:before {
     background-image: url(/images/Tank/Hero811-icon.webp);
     background-repeat: no-repeat;
   }
   
   
   
-  input[type=radio][value="tank25"]+label:before {
+  input[type=radio][value="25"]+label:before {
     background-image: url(/images/Tank/Hero871-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="tank26"]+label:before {
+  input[type=radio][value="26"]+label:before {
     background-image: url(/images/Tank/Hero881-icon.webp);
     background-repeat: no-repeat;
   }
-  input[type=radio][value="tank27"]+label:before {
+  input[type=radio][value="27"]+label:before {
     background-image: url(/images/Tank/Hero931-icon.webp);
     background-repeat: no-repeat;
   }
-  input[type=radio][value="tank28"]+label:before {
+  input[type=radio][value="28"]+label:before {
     background-image: url(/images/Tank/Hero1041-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="tank29"]+label:before {
+  input[type=radio][value="29"]+label:before {
     background-image: url(/images/Tank/Hero1111-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="tank30"]+label:before {
+  input[type=radio][value="30"]+label:before {
     background-image: url(/images/Tank/Hero1171-icon.webp);
     background-repeat: no-repeat;
   }
@@ -192,62 +192,62 @@ input[type=radio]+label:before {
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight32"]+label:before {
+  input[type=radio][value="32"]+label:before {
     background-image: url(/images/fighter/Hero071-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight33"]+label:before {
+  input[type=radio][value="33"]+label:before {
     background-image: url(/images/fighter/Hero111-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight34"]+label:before {
+  input[type=radio][value="34"]+label:before {
     background-image: url(/images/fighter/Hero261-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight35"]+label:before {
+  input[type=radio][value="35"]+label:before {
     background-image: url(/images/fighter/Hero371-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight36"]+label:before {
+  input[type=radio][value="36"]+label:before {
     background-image: url(/images/fighter/Hero391-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight37"]+label:before {
+  input[type=radio][value="37"]+label:before {
     background-image: url(/images/fighter/Hero411-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight38"]+label:before {
+  input[type=radio][value="38"]+label:before {
     background-image: url(/images/fighter/Hero451-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight39"]+label:before {
+  input[type=radio][value="39"]+label:before {
     background-image: url(/images/fighter/Hero541-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight40"]+label:before {
+  input[type=radio][value="40"]+label:before {
     background-image: url(/images/fighter/Hero581-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight41"]+label:before {
+  input[type=radio][value="41"]+label:before {
     background-image: url(/images/fighter/Hero621-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight42"]+label:before {
+  input[type=radio][value="42"]+label:before {
     background-image: url(/images/fighter/Hero641-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight43"]+label:before {
+  input[type=radio][value="43"]+label:before {
     background-image: url(/images/fighter/Hero671-icon.webp);
     background-repeat: no-repeat;
   }
@@ -257,77 +257,77 @@ input[type=radio]+label:before {
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight45"]+label:before {
+  input[type=radio][value="45"]+label:before {
     background-image: url(/images/fighter/Hero741-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight46"]+label:before {
+  input[type=radio][value="46"]+label:before {
     background-image: url(/images/fighter/Hero771-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight47"]+label:before {
+  input[type=radio][value="47"]+label:before {
     background-image: url(/images/fighter/Hero801-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight48"]+label:before {
+  input[type=radio][value="48"]+label:before {
     background-image: url(/images/fighter/Hero821-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight49"]+label:before {
+  input[type=radio][value="49"]+label:before {
     background-image: url(/images/fighter/Hero831-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight50"]+label:before {
+  input[type=radio][value="50"]+label:before {
     background-image: url(/images/fighter/Hero881-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight51"]+label:before {
+  input[type=radio][value="51"]+label:before {
     background-image: url(/images/fighter/Hero901-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight52"]+label:before {
+  input[type=radio][value="52"]+label:before {
     background-image: url(/images/fighter/Hero951-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight53"]+label:before {
+  input[type=radio][value="53"]+label:before {
     background-image: url(/images/fighter/Hero981-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight54"]+label:before {
+  input[type=radio][value="54"]+label:before {
     background-image: url(/images/fighter/Hero991-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight55"]+label:before {
+  input[type=radio][value="55"]+label:before {
     background-image: url(/images/fighter/Hero1031-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight56"]+label:before {
+  input[type=radio][value="56"]+label:before {
     background-image: url(/images/fighter/Hero1081-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight57"]+label:before {
+  input[type=radio][value="57"]+label:before {
     background-image: url(/images/fighter/Hero1131-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight58"]+label:before {
+  input[type=radio][value="58"]+label:before {
     background-image: url(/images/fighter/Hero1161-icon.webp);
     background-repeat: no-repeat;
   }
   
-  input[type=radio][value="fight59"]+label:before {
+  input[type=radio][value="59"]+label:before {
     background-image: url(/images/fighter/Hero1171-icon.webp);
     background-repeat: no-repeat;
   }
