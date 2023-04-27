@@ -66,7 +66,7 @@
      
       <div class="ui card">
         <div class="image">
-          <img src="/assets/user.png">
+          <img src="user.png">
         </div>
         <div class="content">
           <p class="header"><%= @user.name %></p>
@@ -113,7 +113,7 @@
   </div> 
   
   <div id="user_List">
-  <p><%= link_to "予定の新規追加", new_post_path , :class=>"link"%></p>
+  <p><%= link_to "投稿しよう！", new_post_path , :class=>"link"%></p>
   <p>本日の日付: <%= Date.current.strftime('%Y/%-m/%-d') %></p>
   <p class="count">あなたの投稿件数: <%= current_user.posts.count %></p>
   

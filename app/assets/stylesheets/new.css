@@ -562,7 +562,7 @@ input[type=radio]+label:before {
        flex-direction: column;
    }
    .size{
-     font-size: 1px;
+     font-size: 14px;
      color: rgb(3, 11, 245);
    }
    .size1{

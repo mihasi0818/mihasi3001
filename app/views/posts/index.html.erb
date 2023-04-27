@@ -9,9 +9,9 @@
   
     
   <% if logged_in? %>
-    <p><%= link_to "予定の新規追加", new_post_path, :class => "link" %></p>
+    <p><%= link_to "さぁ投稿しよう!!", new_post_path, :class => "link" %></p>
   <% else %>
-    <p><%= link_to "ログイン", login_path, :class => "link" %></p>
+    <p><%= link_to "ログイン後に投稿！！", login_path, :class => "link" %></p>
   <% end %>
     
     <p>本日の日付: <%= Date.current.strftime('%Y/%-m/%-d') %></p>
@@ -109,9 +109,9 @@
       </nav>
       
       <% if logged_in? %>
-      <p><%= link_to "予定の新規追加", new_post_path, :class => "link" %></p>
+      <p><%= link_to "さぁ投稿しよう!!", new_post_path, :class => "link" %></p>
     <% else %>
-      <p><%= link_to "ログイン", login_path, :class => "link" %></p>
+      <p><%= link_to "ログイン後に投稿！！", login_path, :class => "link" %></p>
     <% end %>
       
    <!-- 以下は著作権の引用元からのサンプルコードです -->
