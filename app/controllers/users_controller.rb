@@ -1,12 +1,15 @@
 class UsersController < ApplicationController
     include Pagy::Backend
     before_action :set_user, only: %i[ show edit update destroy ]
+    before_action :require_user, except: [:new, :create]
     before_action :require_user, only: [:edit, :update, :destroy]
     before_action :require_same_user, only: [:edit, :update, :destroy]
     helper_method :current_user
+
     before_action :admin_user, only: :destroy
     before_action :paginate_users, only: [:index]
     before_action :paginate_posts, only: [ :most_liked, :show]
+
     def paginate_posts(posts_to_paginate = nil)
       @pagy, @posts = pagy(posts_to_paginate.presence || Post.all, items: 10)
     end
@@ -88,13 +91,13 @@ class UsersController < ApplicationController
       @user = User.new(user_params)
       if @user.save
         @user.send_activation_email
-        flash[:notice] = "アカウント有効化メールを送信しました。メールが届きましたら、記載されているリンクをクリックしてアカウントを有効化してください。"
-        redirect_to root_path
+        log_in @user
+        redirect_to user_url(@user), notice: "アカウント有効化メールを送信しました。メールが届きましたら、記載されているリンクをクリックしてアカウントを有効化してください。"
       else
         render :new, status: :unprocessable_entity
       end
     end
-    
+
     def update
       respond_to do |format|
         if @user.update(user_params)
@@ -105,6 +108,7 @@ class UsersController < ApplicationController
           format.json { render json: @user.errors, status: :unprocessable_entity }
         end
       end
+
     end
   
     def destroy
@@ -153,8 +157,11 @@ class UsersController < ApplicationController
     end
   
     def admin_user
-      redirect_to(root_url) unless current_user.admin?
-    end
+  unless current_user.admin?
+    redirect_to root_url(format: :html), alert: "管理者権限が必要です"
+  end
+  end
+
   
     def require_user
       unless current_user.present?
@@ -170,5 +177,5 @@ class UsersController < ApplicationController
     @pagy, @posts = pagy(@posts, items: 10, page: params[:page])
   end
     
-  end
+end
   

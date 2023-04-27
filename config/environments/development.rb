@@ -74,13 +74,13 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: host, protocol: 'http' }
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  # Gmail の場合
-  config.action_mailer.smtp_settings = {
-  :enable_starttls_auto => true,
-  :address => "smtp.gmail.com",
-  :port => 587,
-  :domain => 'smtp.gmail.com',
-  :user_name => ENV['GMAIL_ADDRESS'],
-  :password => ENV['GMAIL_PASSWORD'],
-  :authentication => 'login'
-}
+   # SendGrid の場合
+   config.action_mailer.smtp_settings = {
+    :address => 'smtp.sendgrid.net',
+    :port => 587,
+    :domain => 'heroku.com',
+    :user_name => 'apikey',
+    :password => ENV['SENDGRID_API_KEY'],
+    :authentication => :plain,
+    :enable_starttls_auto => true
+  }
