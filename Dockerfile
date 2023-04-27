@@ -1,5 +1,4 @@
-FROM ruby:3.2.2
-
+FROM --platform=linux/x86_64 ruby:3.2.2
 ENV RAILS_ENV=production
 
 RUN apt-get update -qq && apt-get install -y postgresql-client
