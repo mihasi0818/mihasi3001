@@ -103,8 +103,17 @@ input[type=radio][value="60"]+label:before{
                                                                                                     input[type=radio][value="86"]+label:before{
                                                                                                         background-image: url(/images/mage/Hero1191-icon.webp);
                                                                                                         background-repeat: no-repeat;
+                                                                                                    }
+  
+  
+  
+  
+                                                                                                    input[type=radio][value="86"]+label:before{
+                                                                                                        background-image: url(/images/mage/Hero761-icon.webp);
+                                                                                                        background-repeat: no-repeat;
                                                                                                         }
-  /*asasin*/
+  
+                                                                                                    /*asasin*/
 
   input[type=radio][value="90"]+label:before{
     background-image: url(/images/asasin/Hero031-icon.webp);
@@ -357,6 +366,11 @@ input[type=radio][value="120"]+label:before{
                                                                     background-image: url(/images/support/Hero1121-icon.webp);
                                                                     background-repeat: no-repeat;
                                                                     }
+                                                                    input[type=radio][value="156"]+label:before{
+                                                                        background-image: url(/images/support/Hero761-icon.webp);
+                                                                        background-repeat: no-repeat;
+                                                                        }
+    
 
                                                                     .box-login{
                                                                         color:rgb(0, 0, 255);
