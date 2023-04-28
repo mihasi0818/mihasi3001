@@ -19,6 +19,9 @@ module Myapp
     config.time_zone = "Tokyo"
     config.i18n.default_locale = :ja
     config.action_view.field_error_proc = Proc.new { |html_tag, instance| html_tag }
+    config.assets.enabled = true
+    config.assets.version = '1.0'
+    config.assets.paths << Rails.root.join('app', 'assets', 'images')
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files

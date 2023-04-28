@@ -148,7 +148,7 @@ input[type=radio][value="60"]+label:before{
                                        input[type=radio][value="99"]+label:before{
                                         background-image: url(/images/asasin/Hero471-icon.webp);
                                         background-repeat: no-repeat;
-                                        }           
+                                        }          
                                         input[type=radio][value="99"]+label:before{
                                             background-image: url(/images/asasin/Hero511-icon.webp);
                                             background-repeat: no-repeat;
@@ -197,6 +197,13 @@ input[type=radio][value="60"]+label:before{
                                                                                         background-image: url(/images/asasin/Hero1201-icon.webp);
                                                                                         background-repeat: no-repeat;
                                                                                         }  
+
+
+                                                                                        input[type=radio][value="111"]+label:before{
+                                                                                            background-image: url(/images/asasin/Hero501-icon.webp);
+                                                                                            background-repeat: no-repeat;
+                                                                                            }       
+
 /*hanter120~*/    
 
 input[type=radio][value="120"]+label:before{
@@ -279,6 +286,11 @@ input[type=radio][value="120"]+label:before{
                                                                             background-image: url(/images/hanter/Hero1141-icon.webp);
                                                                                 background-repeat: no-repeat;
                                                                                 }  
+                                                                                input[type=radio][value="160"]+label:before{
+                                                                                    background-image: url(/images/hanter/Hero1111-icon.webp);
+                                                                                        background-repeat: no-repeat;
+                                                                                        }  
+                            
                     
     /*support140~*/     
     input[type=radio][value="140"]+label:before{

@@ -1,5 +1,7 @@
 <div class="box">
   <p><%= link_to 'お知らせ', '/notifications' %></p>
+  <h2>みんなで</h2>
+  <h1>モバレ攻略サイト</h1>
     <h2>投稿一覧</h2>
     <% if current_user %>
       <p>ログイン中: <%= current_user.name %></p>
@@ -32,7 +34,7 @@
            <th><%= post.created_at.strftime('%Y/%m/%d %H:%M') %></th> 
             <th class="name"><div class="name">user名</div></th>
             <td><div class="name"><% if current_user %>
-              <p class="user_name"><%= current_user.name %></p>
+              <p class="user_name"><%= post.user.name %></p>
             <% else %>
               <p>ログアウト中</p>
             <% end %></div></td>
