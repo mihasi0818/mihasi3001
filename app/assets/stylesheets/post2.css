@@ -20,6 +20,10 @@ input[type=radio][value="60"]+label:before{
                     background-image: url(/images/mage/Hero231-icon.webp);
                     background-repeat: no-repeat;
                     }
+                    input[type=radio][value="64"]+label:before{
+                        background-image: url(/images/mage/Hero251-icon.webp);
+                        background-repeat: no-repeat;
+                        }
                     input[type=radio][value="65"]+label:before{
                         background-image: url(/images/mage/Hero331-icon.webp);
                         background-repeat: no-repeat;
@@ -28,6 +32,10 @@ input[type=radio][value="60"]+label:before{
                             background-image: url(/images/mage/Hero361-icon.webp);
                             background-repeat: no-repeat;
                             }
+                            input[type=radio][value="666"]+label:before{
+                                background-image: url(/images/mage/Hero381-icon.webp);
+                                background-repeat: no-repeat;
+                                }
                             input[type=radio][value="67"]+label:before{
                                 background-image: url(/images/mage/Hero421-icon.webp);
                                 background-repeat: no-repeat;
@@ -88,6 +96,10 @@ input[type=radio][value="60"]+label:before{
                                                                                         background-image: url(/images/mage/Hero961-icon.webp);
                                                                                         background-repeat: no-repeat;
                                                                                         }
+                                                                                        input[type=radio][value="833"]+label:before{
+                                                                                            background-image: url(/images/mage/Hero1101-icon.webp);
+                                                                                            background-repeat: no-repeat;
+                                                                                            }
                                                                                         input[type=radio][value="83"]+label:before{
                                                                                             background-image: url(/images/mage/Hero1011-icon.webp);
                                                                                             background-repeat: no-repeat;
@@ -259,6 +271,10 @@ input[type=radio][value="120"]+label:before{
                                             background-image: url(/images/hanter/Hero601-icon.webp);
                                             background-repeat: no-repeat;
                                             }  
+                                            input[type=radio][value="1300"]+label:before{
+                                                background-image: url(/images/hanter/Hero651-icon.webp);
+                                                background-repeat: no-repeat;
+                                                }  
                                             input[type=radio][value="131"]+label:before{
                                                 background-image: url(/images/hanter/Hero711-icon.webp);
                                                 background-repeat: no-repeat;

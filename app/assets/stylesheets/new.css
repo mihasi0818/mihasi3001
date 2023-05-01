@@ -201,12 +201,35 @@ input[type=radio]+label:before {
     background-image: url(/images/fighter/Hero111-icon.webp);
     background-repeat: no-repeat;
   }
-  
+  input[type=radio][value="322"]+label:before {
+    background-image: url(/images/fighter/Hero161-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="333"]+label:before {
+    background-image: url(/images/fighter/Hero221-icon.webp);
+    background-repeat: no-repeat;
+  }
   input[type=radio][value="34"]+label:before {
     background-image: url(/images/fighter/Hero261-icon.webp);
     background-repeat: no-repeat;
   }
-  
+  input[type=radio][value="344"]+label:before {
+    background-image: url(/images/fighter/Hero271-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="355"]+label:before {
+    background-image: url(/images/fighter/Hero281-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="366"]+label:before {
+    background-image: url(/images/fighter/Hero291-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="377"]+label:before {
+    background-image: url(/images/fighter/Hero351-icon.webp);
+    background-repeat: no-repeat;
+  }
+
   input[type=radio][value="35"]+label:before {
     background-image: url(/images/fighter/Hero371-icon.webp);
     background-repeat: no-repeat;
@@ -221,7 +244,10 @@ input[type=radio]+label:before {
     background-image: url(/images/fighter/Hero411-icon.webp);
     background-repeat: no-repeat;
   }
-  
+  input[type=radio][value="377"]+label:before {
+    background-image: url(/images/fighter/Hero4441-icon.webp);
+    background-repeat: no-repeat;
+  }
   input[type=radio][value="38"]+label:before {
     background-image: url(/images/fighter/Hero451-icon.webp);
     background-repeat: no-repeat;
@@ -281,7 +307,11 @@ input[type=radio]+label:before {
     background-image: url(/images/fighter/Hero831-icon.webp);
     background-repeat: no-repeat;
   }
-  
+  input[type=radio][value="499"]+label:before {
+    background-image: url(/images/fighter/Hero851-icon.webp);
+    background-repeat: no-repeat;
+  }
+
   input[type=radio][value="50"]+label:before {
     background-image: url(/images/fighter/Hero881-icon.webp);
     background-repeat: no-repeat;
@@ -306,14 +336,25 @@ input[type=radio]+label:before {
     background-image: url(/images/fighter/Hero991-icon.webp);
     background-repeat: no-repeat;
   }
-  
   input[type=radio][value="55"]+label:before {
     background-image: url(/images/fighter/Hero1031-icon.webp);
     background-repeat: no-repeat;
   }
   
+  
+  input[type=radio][value="555"]+label:before {
+    background-image: url(/images/fighter/Hero1061-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
   input[type=radio][value="56"]+label:before {
     background-image: url(/images/fighter/Hero1081-icon.webp);
+    background-repeat: no-repeat;
+  }
+
+
+  input[type=radio][value="56"]+label:before {
+    background-image: url(/images/fighter/Hero1061-icon.webp);
     background-repeat: no-repeat;
   }
   
@@ -332,6 +373,14 @@ input[type=radio]+label:before {
     background-repeat: no-repeat;
   }
   
+  input[type=radio][value="599"]+label:before {
+    background-image: url(/images/fighter/Hero1201-icon.webp);
+    background-repeat: no-repeat;
+  }
+
+
+
+
   .grond {
     background-image: url(/images/grond/Laylamisshikari.webp);
     background-size: cover;
