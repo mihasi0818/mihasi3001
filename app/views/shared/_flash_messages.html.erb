@@ -1,0 +1,9 @@
+<%# フラッシュメッセージ %>
+<% flash.each do |message_type, message| %>
+  <div class="ui message <%= message_type == 'notice' ? "success" : "error" %>">
+    <i class="close icon"></i>
+    <div class="header">
+      <%= message %>
+    </div>
+  </div>
+<% end %>

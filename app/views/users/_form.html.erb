@@ -1,0 +1,54 @@
+<%= form_with(model: user, local: true, class: "ui form  segment", id: "signup-form") do |form| %>
+
+  <div class="field <%= user.errors.include?(:name) ? 'error' : '' %>">
+    <%= form.label :name %>
+    <div class="ui left icon input">
+      <i class="user icon"></i>
+      <%= form.text_field :name, placeholder: "ユーザー名" %>
+    </div>
+    <%= render 'shared/error_messages', obj: user, key: :name %>
+  </div>
+
+  <div class="field <%= user.errors.include?(:email) ? 'error' : '' %>">
+    <%= form.label :email %>
+    <div class="ui left icon input">
+      <i class="envelope icon"></i>
+      <%= form.email_field :email, placeholder: "メールアドレス" %>
+    </div>
+    <%= render 'shared/error_messages', obj: user, key: :email %>
+  </div>
+
+  <div class="field <%= user.errors.include?(:password) ? 'error' : '' %>">
+    <%= form.label "パスワード(6文字以上で入力してください)" %>
+    <div class="ui left icon input">
+      <i class="lock icon"></i>
+      <%= form.password_field :password, placeholder: "パスワード" %>
+    </div>
+    <%= render 'shared/error_messages', obj: user, key: :password %>
+  </div>
+
+  <div class="field <%= user.errors.include?(:password_confirmation) ? 'error' : '' %>">
+    <%= form.label :password_confirmation %>
+    <div class="ui left icon input">
+      <i class="lock icon"></i>
+      <%= form.password_field :password_confirmation, placeholder: "パスワード(確認用)" %>
+    </div>
+    <%= render 'shared/error_messages', obj: user, key: :password_confirmation %>
+  </div>
+
+  <div>
+    <%= form.submit class: "ui teal submit button" %>
+    <%= link_to "キャンセル", !user.new_record? ? user_path : root_path,  class: "ui button" %>
+  </div>
+
+  <%# if user.errors.any? %>
+<!--    <div class="ui error message"> -->
+      <%# user.errors.each do |error| %>
+<!--        <li><%#= error.full_message %></li> -->
+      <%# end %>
+<!--     </div>  -->
+  <%# end %>
+<% end %>
+<div class="ui message">
+  <%= link_to "ゲストユーザーとして利用する（guest user）", guest_login_path %>
+</div>

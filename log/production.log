@@ -1,0 +1,136 @@
+I, [2023-04-24T04:15:08.012624 #18]  INFO -- : [22e62b05-a099-45c5-bb7d-37ce33956ec3] Started GET "/" for 172.19.0.1 at 2023-04-24 04:15:08 +0000
+I, [2023-04-24T04:15:08.098072 #18]  INFO -- : [22e62b05-a099-45c5-bb7d-37ce33956ec3] Processing by PostsController#index as HTML
+I, [2023-04-24T04:15:08.376252 #18]  INFO -- : [22e62b05-a099-45c5-bb7d-37ce33956ec3] Completed 500 Internal Server Error in 276ms (ActiveRecord: 105.6ms | Allocations: 5541)
+F, [2023-04-24T04:15:08.380627 #18] FATAL -- : [22e62b05-a099-45c5-bb7d-37ce33956ec3]   
+[22e62b05-a099-45c5-bb7d-37ce33956ec3] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[22e62b05-a099-45c5-bb7d-37ce33956ec3]   
+[22e62b05-a099-45c5-bb7d-37ce33956ec3] app/models/post.rb:2:in `block in <class:Post>'
+[22e62b05-a099-45c5-bb7d-37ce33956ec3] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T04:15:08.526908 #18]  INFO -- : [c77c514a-9eae-4f0f-8181-b6caba497c44] Started GET "/favicon.ico" for 172.19.0.1 at 2023-04-24 04:15:08 +0000
+F, [2023-04-24T04:15:08.529908 #18] FATAL -- : [c77c514a-9eae-4f0f-8181-b6caba497c44]   
+[c77c514a-9eae-4f0f-8181-b6caba497c44] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[c77c514a-9eae-4f0f-8181-b6caba497c44]   
+I, [2023-04-24T04:15:18.209937 #18]  INFO -- : [3640d4ce-4233-4679-a300-7f2832c5c052] Started GET "/" for 172.19.0.1 at 2023-04-24 04:15:18 +0000
+I, [2023-04-24T04:15:18.214197 #18]  INFO -- : [3640d4ce-4233-4679-a300-7f2832c5c052] Processing by PostsController#index as HTML
+I, [2023-04-24T04:15:18.219163 #18]  INFO -- : [3640d4ce-4233-4679-a300-7f2832c5c052] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.3ms | Allocations: 229)
+F, [2023-04-24T04:15:18.221795 #18] FATAL -- : [3640d4ce-4233-4679-a300-7f2832c5c052]   
+[3640d4ce-4233-4679-a300-7f2832c5c052] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[3640d4ce-4233-4679-a300-7f2832c5c052]   
+[3640d4ce-4233-4679-a300-7f2832c5c052] app/models/post.rb:2:in `block in <class:Post>'
+[3640d4ce-4233-4679-a300-7f2832c5c052] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T04:23:18.339329 #18]  INFO -- : [2af764c4-8a48-4ce4-8a94-8b30acfece02] Started GET "/" for 172.19.0.1 at 2023-04-24 04:23:18 +0000
+I, [2023-04-24T04:23:18.360158 #18]  INFO -- : [2af764c4-8a48-4ce4-8a94-8b30acfece02] Processing by PostsController#index as HTML
+I, [2023-04-24T04:23:18.434363 #18]  INFO -- : [2af764c4-8a48-4ce4-8a94-8b30acfece02] Completed 500 Internal Server Error in 73ms (ActiveRecord: 14.8ms | Allocations: 2932)
+F, [2023-04-24T04:23:18.435928 #18] FATAL -- : [2af764c4-8a48-4ce4-8a94-8b30acfece02]   
+[2af764c4-8a48-4ce4-8a94-8b30acfece02] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[2af764c4-8a48-4ce4-8a94-8b30acfece02]   
+[2af764c4-8a48-4ce4-8a94-8b30acfece02] app/models/post.rb:2:in `block in <class:Post>'
+[2af764c4-8a48-4ce4-8a94-8b30acfece02] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T04:23:20.726611 #18]  INFO -- : [25c34775-20ed-4960-b46d-97d35f4af7c8] Started GET "/" for 172.19.0.1 at 2023-04-24 04:23:20 +0000
+I, [2023-04-24T04:23:20.730095 #18]  INFO -- : [25c34775-20ed-4960-b46d-97d35f4af7c8] Processing by PostsController#index as HTML
+I, [2023-04-24T04:23:20.735256 #18]  INFO -- : [25c34775-20ed-4960-b46d-97d35f4af7c8] Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.2ms | Allocations: 228)
+F, [2023-04-24T04:23:20.739731 #18] FATAL -- : [25c34775-20ed-4960-b46d-97d35f4af7c8]   
+[25c34775-20ed-4960-b46d-97d35f4af7c8] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[25c34775-20ed-4960-b46d-97d35f4af7c8]   
+[25c34775-20ed-4960-b46d-97d35f4af7c8] app/models/post.rb:2:in `block in <class:Post>'
+[25c34775-20ed-4960-b46d-97d35f4af7c8] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T06:02:39.895784 #39]  INFO -- : [9e03cddf-9572-4bc8-aba3-6f42199ccad5] Started GET "/posts" for 172.21.0.1 at 2023-04-24 06:02:39 +0000
+I, [2023-04-24T06:02:39.922580 #39]  INFO -- : [9e03cddf-9572-4bc8-aba3-6f42199ccad5] Processing by PostsController#index as HTML
+I, [2023-04-24T06:02:40.186972 #39]  INFO -- : [9e03cddf-9572-4bc8-aba3-6f42199ccad5] Completed 500 Internal Server Error in 263ms (ActiveRecord: 85.1ms | Allocations: 5542)
+F, [2023-04-24T06:02:40.192242 #39] FATAL -- : [9e03cddf-9572-4bc8-aba3-6f42199ccad5]   
+[9e03cddf-9572-4bc8-aba3-6f42199ccad5] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[9e03cddf-9572-4bc8-aba3-6f42199ccad5]   
+[9e03cddf-9572-4bc8-aba3-6f42199ccad5] app/models/post.rb:2:in `block in <class:Post>'
+[9e03cddf-9572-4bc8-aba3-6f42199ccad5] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T06:02:45.354518 #39]  INFO -- : [814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] Started GET "/" for 172.21.0.1 at 2023-04-24 06:02:45 +0000
+I, [2023-04-24T06:02:45.372265 #39]  INFO -- : [814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] Processing by PostsController#index as HTML
+I, [2023-04-24T06:02:45.392176 #39]  INFO -- : [814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] Completed 500 Internal Server Error in 16ms (ActiveRecord: 6.2ms | Allocations: 229)
+F, [2023-04-24T06:02:45.403984 #39] FATAL -- : [814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e]   
+[814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "posts" does not exist
+LINE 9:  WHERE a.attrelid = '"posts"'::regclass
+                            ^
+):
+[814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e]   
+[814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] app/models/post.rb:2:in `block in <class:Post>'
+[814fb0f7-2ca7-4bd2-b3f1-a3cedc17e36e] app/controllers/posts_controller.rb:8:in `paginate_posts'
+I, [2023-04-24T07:15:44.324771 #37]  INFO -- : [de005caa-92c0-4a68-b33f-a3a77855b600] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:44 +0000
+I, [2023-04-24T07:15:44.365521 #37]  INFO -- : [de005caa-92c0-4a68-b33f-a3a77855b600] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:44.739172 #39]  INFO -- : [a535b3c8-02f7-42a1-bc2e-c16a2fc417f8] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:44 +0000
+I, [2023-04-24T07:15:44.752492 #39]  INFO -- : [a535b3c8-02f7-42a1-bc2e-c16a2fc417f8] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:44.991270 #65]  INFO -- : [3e73a43d-3ed7-4056-a5f0-9be1a96fe37b] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:44 +0000
+I, [2023-04-24T07:15:45.011350 #65]  INFO -- : [3e73a43d-3ed7-4056-a5f0-9be1a96fe37b] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:45.194766 #79]  INFO -- : [8c995092-959b-4694-ac31-fcdd118d431c] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:45 +0000
+I, [2023-04-24T07:15:45.216360 #79]  INFO -- : [8c995092-959b-4694-ac31-fcdd118d431c] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:45.385367 #93]  INFO -- : [746ef61d-0e8b-4d66-908c-17151c4e2010] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:45 +0000
+I, [2023-04-24T07:15:45.404632 #93]  INFO -- : [746ef61d-0e8b-4d66-908c-17151c4e2010] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:45.544640 #107]  INFO -- : [8e120d60-b3cf-4d45-80eb-0ccf61ef671e] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:45 +0000
+I, [2023-04-24T07:15:45.566810 #107]  INFO -- : [8e120d60-b3cf-4d45-80eb-0ccf61ef671e] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:45.731323 #121]  INFO -- : [26bb70f4-42d9-4ec1-80fb-f85738c1b406] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:45 +0000
+I, [2023-04-24T07:15:45.751349 #121]  INFO -- : [26bb70f4-42d9-4ec1-80fb-f85738c1b406] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:45.892101 #135]  INFO -- : [201be508-7847-4f22-8041-2cd483310654] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:45 +0000
+I, [2023-04-24T07:15:45.911981 #135]  INFO -- : [201be508-7847-4f22-8041-2cd483310654] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:46.054736 #149]  INFO -- : [7c7e6ad3-6d41-455a-a82d-9e89512ca770] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:46 +0000
+I, [2023-04-24T07:15:46.073894 #149]  INFO -- : [7c7e6ad3-6d41-455a-a82d-9e89512ca770] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:46.226801 #163]  INFO -- : [80c91d00-4989-485e-91e0-930ea813c5dd] Started GET "/posts" for 172.24.0.1 at 2023-04-24 07:15:46 +0000
+I, [2023-04-24T07:15:46.247871 #163]  INFO -- : [80c91d00-4989-485e-91e0-930ea813c5dd] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:49.676044 #191]  INFO -- : [3f4c2ee3-d940-4b0b-a073-00c35ec68eaf] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:49 +0000
+I, [2023-04-24T07:15:49.697538 #191]  INFO -- : [3f4c2ee3-d940-4b0b-a073-00c35ec68eaf] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:49.960435 #177]  INFO -- : [44b48755-9566-4f49-a634-0983c80ae4a9] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:49 +0000
+I, [2023-04-24T07:15:49.973907 #177]  INFO -- : [44b48755-9566-4f49-a634-0983c80ae4a9] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.157609 #205]  INFO -- : [f932e4bc-e819-4295-b470-3fb30c1e3192] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.167339 #205]  INFO -- : [f932e4bc-e819-4295-b470-3fb30c1e3192] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.329508 #219]  INFO -- : [2ad39bd6-f72b-422f-8b95-888fb7697907] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.339071 #219]  INFO -- : [2ad39bd6-f72b-422f-8b95-888fb7697907] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.492233 #233]  INFO -- : [2e0442b9-c4bd-4b9c-8005-3df39fe11011] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.501769 #233]  INFO -- : [2e0442b9-c4bd-4b9c-8005-3df39fe11011] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.655076 #247]  INFO -- : [901ef42d-a11c-453b-b72a-7211d1fa9e45] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.664812 #247]  INFO -- : [901ef42d-a11c-453b-b72a-7211d1fa9e45] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.813856 #261]  INFO -- : [9c52c374-ad9f-4db1-8bc6-e5a8a9ac4b55] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.823340 #261]  INFO -- : [9c52c374-ad9f-4db1-8bc6-e5a8a9ac4b55] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:50.971609 #275]  INFO -- : [7a87b38e-bf8c-4576-ad58-7c96311bac0c] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:50 +0000
+I, [2023-04-24T07:15:50.981934 #275]  INFO -- : [7a87b38e-bf8c-4576-ad58-7c96311bac0c] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:51.121464 #289]  INFO -- : [b9e0ef91-08fd-4f91-ac0d-cad0efda4556] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:51 +0000
+I, [2023-04-24T07:15:51.131006 #289]  INFO -- : [b9e0ef91-08fd-4f91-ac0d-cad0efda4556] Processing by PostsController#index as HTML
+I, [2023-04-24T07:15:51.270254 #303]  INFO -- : [91fbfa53-37b5-4509-8685-ea66242f7b7c] Started GET "/" for 172.24.0.1 at 2023-04-24 07:15:51 +0000
+I, [2023-04-24T07:15:51.279782 #303]  INFO -- : [91fbfa53-37b5-4509-8685-ea66242f7b7c] Processing by PostsController#index as HTML
+I, [2023-04-25T02:05:44.658765 #44]  INFO -- : [9d680ac5-c5dd-4d39-bfaf-382cb12071e0] Started GET "/" for 172.27.0.1 at 2023-04-25 02:05:44 +0000
+I, [2023-04-25T02:05:44.682531 #44]  INFO -- : [9d680ac5-c5dd-4d39-bfaf-382cb12071e0] Processing by PostsController#index as HTML
+I, [2023-04-25T02:05:52.579818 #44]  INFO -- : [9d680ac5-c5dd-4d39-bfaf-382cb12071e0]   Rendered posts/index.html.erb within layouts/application (Duration: 811.8ms | Allocations: 3793)
+I, [2023-04-25T02:05:52.690375 #47]  INFO -- : [4fa718e4-8db8-4690-8fa6-1aa1a5aa3f76] Started GET "/" for 172.27.0.1 at 2023-04-25 02:05:52 +0000
+I, [2023-04-25T02:05:52.705511 #47]  INFO -- : [4fa718e4-8db8-4690-8fa6-1aa1a5aa3f76] Processing by PostsController#index as HTML
+I, [2023-04-25T02:06:00.513950 #47]  INFO -- : [4fa718e4-8db8-4690-8fa6-1aa1a5aa3f76]   Rendered posts/index.html.erb within layouts/application (Duration: 852.7ms | Allocations: 3797)
+I, [2023-04-25T02:06:29.035846 #47]  INFO -- : [c952a832-26b8-4190-b838-3e366c916eb0] Started GET "/users" for 172.27.0.1 at 2023-04-25 02:06:29 +0000
+I, [2023-04-25T02:06:29.122122 #47]  INFO -- : [c952a832-26b8-4190-b838-3e366c916eb0] Processing by UsersController#index as HTML
+I, [2023-04-25T02:06:54.584225 #44]  INFO -- : [9d680ac5-c5dd-4d39-bfaf-382cb12071e0]   Rendered layout layouts/application.html.erb (Duration: 62821.5ms | Allocations: 174957)
+I, [2023-04-25T02:06:54.603820 #44]  INFO -- : [9d680ac5-c5dd-4d39-bfaf-382cb12071e0] Completed 500 Internal Server Error in 69937ms (ActiveRecord: 4252.7ms | Allocations: 183685)
+F, [2023-04-25T02:06:54.620427 #44] FATAL -- : [9d680ac5-c5dd-4d39-bfaf-382cb12071e0]   
+[9d680ac5-c5dd-4d39-bfaf-382cb12071e0] ActionView::Template::Error (Error: Invalid CSS after " */": expected 1 selector or at-rule, was "/*"
+        on line 89546:4 of stdin
+>>  */
+
+   ---^
+):
+[9d680ac5-c5dd-4d39-bfaf-382cb12071e0]      5:     <meta name="viewport" content="width=device-width,initial-scale=1">
+[9d680ac5-c5dd-4d39-bfaf-382cb12071e0]      6:     <%= csrf_meta_tags %>
+[9d680ac5-c5dd-4d39-bfaf-382cb12071e0]      7:     <%= csp_meta_tag %>
+[9d680ac5-c5dd-4d39-bfaf-382cb12071e0]      8:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[9d680ac5-c5dd-4d39-bfaf-382cb12071e0]      9:     <%= javascript_importmap_tags %>
+[9d680ac5-c5dd-4d39-bfaf-382cb12071e0]     10:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+[9d680ac5-c5dd-4d39-bfaf-382cb12071e0]     11:     <%= favicon_link_tag('favicon.ico') %>
+[9d680ac5-c5dd-4d39-bfaf-382cb12071e0]   
+[9d680ac5-c5dd-4d39-bfaf-382cb12071e0] app/views/layouts/application.html.erb:8

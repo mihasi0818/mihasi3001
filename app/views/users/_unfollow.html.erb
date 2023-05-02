@@ -1,0 +1,8 @@
+<h1>Unfollow User</h1>
+<p>Are you sure you want to unfollow <%= @user.name %>?</p>
+
+<%= form_for(current_user.active_relationships.find_by(followed_id: @user.id),
+                            html: { method: :delete },
+                            class: 'form-inline') do |f| %>
+  <%= f.submit "Unfollow", class: "btn btn-primary" %>
+<% end %>

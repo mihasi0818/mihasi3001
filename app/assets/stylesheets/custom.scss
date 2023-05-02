@@ -1,0 +1,101 @@
+// Semantic UI のCSS読み込み
+@import 'semantic-ui';
+.page a,
+.next a,
+.last a,
+.first a,
+.prev a {
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.page a:hover,
+.next a:hover,
+.last a:hover,
+.first a:hover,
+.prev a:hover {
+  color: black;
+}
+
+.current {
+  font-weight: bold;
+}
+.comments-index {
+    background-color: #fff;
+    border: 1px #000 solid;
+  }
+  
+  .comment-delete {
+    margin-left: auto;
+  }
+
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+  a {
+    float: left;
+    padding: 0 10px;
+    
+    color: gray;
+    &:first-child {
+      padding-left: 0;
+      border: 0;
+    }
+    &:hover {
+      text-decoration: none;
+      color: rgb(200, 247, 255);
+    }
+  }
+  strong {
+    display: block;
+  }
+}
+
+.user_avatars {
+  overflow: auto;
+  margin-top: 10px;
+  .gravatar {
+    margin: 1px 1px;
+  }
+  a {
+    padding: 0;
+  }
+}
+
+.users.follow {
+  padding: 0;
+}
+
+@media (max-width: 480px){
+  .content .btn {
+    font-size: 1.2rem;
+  }}
+  @media (max-width: 3750px){
+  .ui.inverted.segment, .ui.primary.inverted.segment {
+    background: #1B1C1D;
+    color: rgba(255, 255, 255, 0.9);
+    width: 480px;
+}
+  }
+  .ui.grid + .grid {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.dd{
+  margin: 20px;
+}
+.ui.teal.header {
+  color: #00B5AD !important;
+  padding: 46px;
+  margin: -42px;
+}
+.ui.teal.header {
+  color: #00B5AD !important;
+  margin: -20px;
+ 
+}
+
+

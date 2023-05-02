@@ -1,0 +1,11 @@
+<% if @like && @like.persisted? %>
+  <% if @post %>
+    $("#like-count-<%= @post.id %>").html("<%= j render partial: 'likes/count', locals: { post: @post } %>");
+    $("[data-behavior='like-toggle']").attr("data-state", "liked");
+  <% end %>
+<% else %>
+  <% if @post %>
+    $("#like-count-<%= @post.id %>").html("<%= j render partial: 'likes/count', locals: { post: @post } %>");
+    $("[data-behavior='like-toggle']").attr("data-state", "unliked");
+  <% end %>
+<% end %>

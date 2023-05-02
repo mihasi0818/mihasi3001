@@ -1,0 +1,707 @@
+input[type=radio]+label:before {
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+  }
+
+  /* 768px以下のブレークポイントの場合 */
+  @media (max-width: 999px) {
+    input[type=radio]+label:before {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  /* 576px以下のブレークポイントの場合 */
+  @media (max-width: 576px) {
+    input[type=radio]+label:before {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  .fields-label label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    float: left;
+  }
+  
+  
+  input[type=radio]:checked+label::before {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 40%;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  input[type="radio"]:checked+label {
+    color: rgb(217, 66, 255);
+  }
+  
+  
+  
+  
+  input[type=radio][value="1"]+label:before {
+    background-image: url(/images/main/Hero061-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="2"]+label:before {
+    background-image: url(/images/main/Hero021-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  input[type=radio][value="3"]+label:before {
+    background-image: url(/images/main/Hero051-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="4"]+label:before {
+    background-image: url(/images/main/Hero171-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="5"]+label:before {
+    background-image: url(/images/main/Hero011-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="6"]+label:before {
+    background-image: url(/images/main/Hero341-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  /*tank*/
+  
+  input[type=radio][value="10"]+label:before {
+    background-image: url(/images/Tank/Hero041-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="11"]+label:before {
+    background-image: url(/images/Tank/Hero061-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="12"]+label:before {
+    background-image: url(/images/Tank/Hero091-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="13"]+label:before {
+    background-image: url(/images/Tank/Hero101-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="14"]+label:before {
+    background-image: url(/images/Tank/Hero191-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="15"]+label:before {
+    background-image: url(/images/Tank/Hero201-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="16"]+label:before {
+    background-image: url(/images/Tank/Hero291-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="17"]+label:before {
+    background-image: url(/images/Tank/Hero321-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  
+  input[type=radio][value="18"]+label:before {
+    background-image: url(/images/Tank/Hero351-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="19"]+label:before {
+    background-image: url(/images/Tank/Hero411-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  input[type=radio][value="20"]+label:before {
+    background-image: url(/images/Tank/Hero491-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="21"]+label:before {
+    background-image: url(/images/Tank/Hero591-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="22"]+label:before {
+    background-image: url(/images/Tank/Hero701-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="23"]+label:before {
+    background-image: url(/images/Tank/Hero781-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="24"]+label:before {
+    background-image: url(/images/Tank/Hero811-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  input[type=radio][value="25"]+label:before {
+    background-image: url(/images/Tank/Hero871-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="26"]+label:before {
+    background-image: url(/images/Tank/Hero881-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="27"]+label:before {
+    background-image: url(/images/Tank/Hero931-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="28"]+label:before {
+    background-image: url(/images/Tank/Hero1041-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="29"]+label:before {
+    background-image: url(/images/Tank/Hero1111-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="30"]+label:before {
+    background-image: url(/images/Tank/Hero1171-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  
+  /*fighter31-60*/
+  input[type=radio][value="fihgt31"]+label:before {
+    background-image: url(/images/fighter/Hero021-icon-2.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="32"]+label:before {
+    background-image: url(/images/fighter/Hero071-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="33"]+label:before {
+    background-image: url(/images/fighter/Hero111-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="322"]+label:before {
+    background-image: url(/images/fighter/Hero161-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="333"]+label:before {
+    background-image: url(/images/fighter/Hero221-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="34"]+label:before {
+    background-image: url(/images/fighter/Hero261-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="344"]+label:before {
+    background-image: url(/images/fighter/Hero271-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="355"]+label:before {
+    background-image: url(/images/fighter/Hero281-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="366"]+label:before {
+    background-image: url(/images/fighter/Hero291-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="377"]+label:before {
+    background-image: url(/images/fighter/Hero351-icon.webp);
+    background-repeat: no-repeat;
+  }
+
+  input[type=radio][value="35"]+label:before {
+    background-image: url(/images/fighter/Hero371-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="36"]+label:before {
+    background-image: url(/images/fighter/Hero391-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="37"]+label:before {
+    background-image: url(/images/fighter/Hero411-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="377"]+label:before {
+    background-image: url(/images/fighter/Hero4441-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="38"]+label:before {
+    background-image: url(/images/fighter/Hero451-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="39"]+label:before {
+    background-image: url(/images/fighter/Hero541-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="40"]+label:before {
+    background-image: url(/images/fighter/Hero581-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="41"]+label:before {
+    background-image: url(/images/fighter/Hero621-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="42"]+label:before {
+    background-image: url(/images/fighter/Hero641-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="43"]+label:before {
+    background-image: url(/images/fighter/Hero671-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="44"]+label:before {
+    background-image: url(/images/fighter/Hero721-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="45"]+label:before {
+    background-image: url(/images/fighter/Hero741-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="46"]+label:before {
+    background-image: url(/images/fighter/Hero771-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="47"]+label:before {
+    background-image: url(/images/fighter/Hero801-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="48"]+label:before {
+    background-image: url(/images/fighter/Hero821-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="49"]+label:before {
+    background-image: url(/images/fighter/Hero831-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="499"]+label:before {
+    background-image: url(/images/fighter/Hero851-icon.webp);
+    background-repeat: no-repeat;
+  }
+
+  input[type=radio][value="50"]+label:before {
+    background-image: url(/images/fighter/Hero881-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="51"]+label:before {
+    background-image: url(/images/fighter/Hero901-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="52"]+label:before {
+    background-image: url(/images/fighter/Hero951-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="53"]+label:before {
+    background-image: url(/images/fighter/Hero981-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="54"]+label:before {
+    background-image: url(/images/fighter/Hero991-icon.webp);
+    background-repeat: no-repeat;
+  }
+  input[type=radio][value="55"]+label:before {
+    background-image: url(/images/fighter/Hero1031-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  
+  input[type=radio][value="555"]+label:before {
+    background-image: url(/images/fighter/Hero1061-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="56"]+label:before {
+    background-image: url(/images/fighter/Hero1081-icon.webp);
+    background-repeat: no-repeat;
+  }
+
+
+  input[type=radio][value="56"]+label:before {
+    background-image: url(/images/fighter/Hero1061-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="57"]+label:before {
+    background-image: url(/images/fighter/Hero1131-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="58"]+label:before {
+    background-image: url(/images/fighter/Hero1161-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="59"]+label:before {
+    background-image: url(/images/fighter/Hero1171-icon.webp);
+    background-repeat: no-repeat;
+  }
+  
+  input[type=radio][value="599"]+label:before {
+    background-image: url(/images/fighter/Hero1201-icon.webp);
+    background-repeat: no-repeat;
+  }
+
+
+
+
+  .grond {
+    background-image: url(/images/grond/Laylamisshikari.webp);
+    background-size: cover;
+  }
+  
+  body{
+    background-image: url(/images/grond/YuZhongSkins.webp);
+    background-size: cover;
+  }
+  
+  
+  
+  
+  
+  .main {
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;
+  
+  }
+  
+  .list_1 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  
+  
+  
+  }
+  
+  
+  
+  input[type="text"] {
+    width: 60%;
+    height: 30Px;
+  }
+  
+  
+  
+  /* Input要素全体を囲むラッパーにposition: relative;を追加する必要があります */
+  
+  
+  /* 波紋のアニメーション */
+  @keyframes ripple-effect {
+    0% {
+      transform: scale(0.9);
+      opacity: 4;
+    }
+  
+    40% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
+  
+  input[type="radio"]:checked::before {
+    content: "";
+    display: inline-block;
+    width: 850px;
+    height: 850px;
+    border-radius: 50%;
+    background-color: rgb(89, 0, 161);
+    margin-right: 10px;
+    margin-top: -206px;
+    margin-left: 96px;
+    vertical-align: middle;
+    animation: radioCheck 0.25s ease-in-out;
+  }
+  
+  @keyframes radioCheck {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 5px #FF0000,
+        0 0 1000px #ff0000,
+        0 0 5500px #a319ff,
+        0 0 20000px #4a00a0;
+    }
+  }
+  
+  
+  
+  label {
+    display: inline-block;
+    position: relative;
+  }
+  label{
+    color: #ff0202;
+  }
+  input[type=radio] {
+    cursor: pointer;
+  }
+  
+  
+  
+   
+  .list {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding: auto;
+  }
+  
+  
+  
+  
+  
+  
+  .form-check-input {
+    background-color: #fb5b5b; /* Sets the background color of the element */
+    transform: scale(0.07); /* Scales down the element to 7% of its original size */
+    box-shadow: 0 0 10px #fb705b; /* Adds a box shadow when focused */
+    padding: 5px; /* Adds 5px of padding around the content of the element */
+  }
+  .select1{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* ラジオボタンをラップする要素に対して text-align:center を適用する */
+  
+  .tank input:checked + img {
+    background-color: #ffc905;
+  }
+  
+  .fight input:checked + img {
+    background-color: #ff0909;
+  }
+  
+  .mage input:checked + img {
+    background-color: #092aff;
+  }
+  
+  .asasin input:checked + img {
+    background-color: #b509ff;
+  }
+  .hanter input:checked + img {
+    background-color: #fffb1f;
+  }
+  .support input:checked + img {
+    background-color: #33ff00;
+  }
+  .pp{
+    border-top: 2px solid  #eaff00;
+    color: #eaff00;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .ppp{
+    border-top: 2px solid #22ff00;
+    color:#22ff00;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pppp{
+    border-top: 3px solid #ff00e1;
+    color: #ff00e1;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  main{
+    width: 100%;
+    border: 5px solid rgb(71, 2, 136);
+  }
+  
+  @media (max-width: 999px){
+    .list {
+    display: inline-block;
+    }}
+  
+    @media (max-width: 722px){
+      .select1 {
+      display: inline-block;
+      }}
+  
+  
+  
+      @media (max-width: 500px){
+        .select2{
+        display: flex;
+        }}
+  
+        @media (max-width: 500px){
+          .select3{
+          display: flex;
+          }}
+          @media (max-width: 500px){
+            label{
+              inline-size: max-content;
+            }}
+            @media (max-width: 500px){
+            input[type="radio"]:checked::before {
+                content: "";
+                display: inline-block;
+                width: 850px;
+                height: 850px;
+                border-radius: 50%;
+                background-color: rgb(89, 0, 161);
+                margin-right: 10px;
+                margin-top: -204px;
+                margin-left: 99px;
+                vertical-align: middle;
+                animation: radioCheck 0.25s ease-in-out;
+            }
+          }
+    .list img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .user_name {
+      color: #030000; /* ピンク色 */
+     font-size: 5px;
+   }
+   .div{
+     display: flex;
+       align-items: center;
+       flex-direction: column;
+   }
+   .size{
+     font-size: 14px;
+     color: rgb(3, 11, 245);
+   }
+   .size1{
+     font-size: 1px;
+     color: rgb(245, 3, 3);
+   }
+   .count{
+     color: blue;
+   }
+   .link{
+     color: aliceblue;
+   }
+   
+   
+       @media (max-width: 555px){
+       .user_name {
+      font-size: 10px;
+       }}
+   .last{
+     border: 2px solid #0404ff;
+     color: #0404ff;
+   }
+  
+     .danger {
+        background-color: #ff4f4f;
+     }
+     
+     @keyframes shake {
+       0% { transform: translate(0, 0); }
+       20% { transform: translate(-10px, 0); }
+       40% { transform: translate(10px, 0); }
+       60% { transform: translate(-10px, 0); }
+       80% { transform: translate(10px, 0); }
+       100% { transform: translate(0, 0); }
+     }
+   
+     .animated {
+       animation-duration: 1s;
+       animation-fill-mode: both;
+     }
+     .commnt2{
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      justify-content: flex-end;
+  }
+  .commnt3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .pagination {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+    font-size: 20px;
+    justify-content: space-evenly;
+  }
+  .page a, .next a, .last a, .first a, .prev a {
+    color: black;
+    margin-left: 10px;
+    color: #00bb5d;
+    margin-right: 10px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .source-links {
+    margin-top: 10px;
+  }
+  
+  .source-links a {
+    margin-right: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-container {
+      flex-direction: row;
+    }
+  
+    .source-links {
+      margin-top: 0;
+      margin-left: auto;
+    }
+  }
+  
