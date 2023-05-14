@@ -1,0 +1,1027 @@
+@charset "UTF-8";
+/*————————————————————————*/
+/* margin ——————————————————–*/
+/*————————————————————————*/
+/* line 4, app/assets/stylesheets/margin.css.scss */
+.mauto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 5, app/assets/stylesheets/margin.css.scss */
+.ma0 {
+  margin: 0;
+}
+
+/* line 6, app/assets/stylesheets/margin.css.scss */
+.mt0 {
+  margin-top: 0 !important;
+}
+
+/* line 7, app/assets/stylesheets/margin.css.scss */
+.mt5 {
+  margin-top: 5px !important;
+}
+
+/* line 8, app/assets/stylesheets/margin.css.scss */
+.mt10 {
+  margin-top: 10px !important;
+}
+
+/* line 9, app/assets/stylesheets/margin.css.scss */
+.mt15 {
+  margin-top: 15px !important;
+}
+
+/* line 10, app/assets/stylesheets/margin.css.scss */
+.mt20 {
+  margin-top: 20px !important;
+}
+
+/* line 11, app/assets/stylesheets/margin.css.scss */
+.mt25 {
+  margin-top: 25px !important;
+}
+
+/* line 12, app/assets/stylesheets/margin.css.scss */
+.mt30 {
+  margin-top: 30px !important;
+}
+
+/* line 13, app/assets/stylesheets/margin.css.scss */
+.mt35 {
+  margin-top: 35px !important;
+}
+
+/* line 14, app/assets/stylesheets/margin.css.scss */
+.mt40 {
+  margin-top: 40px !important;
+}
+
+/* line 15, app/assets/stylesheets/margin.css.scss */
+.mt45 {
+  margin-top: 45px !important;
+}
+
+/* line 16, app/assets/stylesheets/margin.css.scss */
+.mt50 {
+  margin-top: 50px !important;
+}
+
+/* line 17, app/assets/stylesheets/margin.css.scss */
+.mt55 {
+  margin-top: 55px !important;
+}
+
+/* line 18, app/assets/stylesheets/margin.css.scss */
+.mt60 {
+  margin-top: 60px !important;
+}
+
+/* line 19, app/assets/stylesheets/margin.css.scss */
+.mt65 {
+  margin-top: 65px !important;
+}
+
+/* line 20, app/assets/stylesheets/margin.css.scss */
+.mt70 {
+  margin-top: 70px !important;
+}
+
+/* line 21, app/assets/stylesheets/margin.css.scss */
+.mt75 {
+  margin-top: 75px !important;
+}
+
+/* line 22, app/assets/stylesheets/margin.css.scss */
+.mt80 {
+  margin-top: 80px !important;
+}
+
+/* line 23, app/assets/stylesheets/margin.css.scss */
+.mt85 {
+  margin-top: 85px !important;
+}
+
+/* line 24, app/assets/stylesheets/margin.css.scss */
+.mt90 {
+  margin-top: 90px !important;
+}
+
+/* line 25, app/assets/stylesheets/margin.css.scss */
+.mt95 {
+  margin-top: 95px !important;
+}
+
+/* line 26, app/assets/stylesheets/margin.css.scss */
+.mt100 {
+  margin-top: 100px !important;
+}
+
+/* line 27, app/assets/stylesheets/margin.css.scss */
+.mt150 {
+  margin-top: 150px !important;
+}
+
+/* line 28, app/assets/stylesheets/margin.css.scss */
+.mt200 {
+  margin-top: 200px !important;
+}
+
+/* line 29, app/assets/stylesheets/margin.css.scss */
+.mt250 {
+  margin-top: 250px !important;
+}
+
+/* line 30, app/assets/stylesheets/margin.css.scss */
+.mt300 {
+  margin-top: 300px !important;
+}
+
+/* line 31, app/assets/stylesheets/margin.css.scss */
+.mt350 {
+  margin-top: 350px !important;
+}
+
+/* line 32, app/assets/stylesheets/margin.css.scss */
+.mt400 {
+  margin-top: 400px !important;
+}
+
+/* line 33, app/assets/stylesheets/margin.css.scss */
+.mt450 {
+  margin-top: 450px !important;
+}
+
+/* line 34, app/assets/stylesheets/margin.css.scss */
+.mt500 {
+  margin-top: 500px !important;
+}
+
+/* line 36, app/assets/stylesheets/margin.css.scss */
+.mr0 {
+  margin-right: 0 !important;
+}
+
+/* line 37, app/assets/stylesheets/margin.css.scss */
+.mr5 {
+  margin-right: 5px !important;
+}
+
+/* line 38, app/assets/stylesheets/margin.css.scss */
+.mr10 {
+  margin-right: 10px !important;
+}
+
+/* line 39, app/assets/stylesheets/margin.css.scss */
+.mr15 {
+  margin-right: 15px !important;
+}
+
+/* line 40, app/assets/stylesheets/margin.css.scss */
+.mr20 {
+  margin-right: 20px !important;
+}
+
+/* line 41, app/assets/stylesheets/margin.css.scss */
+.mr25 {
+  margin-right: 25px !important;
+}
+
+/* line 42, app/assets/stylesheets/margin.css.scss */
+.mr30 {
+  margin-right: 30px !important;
+}
+
+/* line 43, app/assets/stylesheets/margin.css.scss */
+.mr35 {
+  margin-right: 35px !important;
+}
+
+/* line 44, app/assets/stylesheets/margin.css.scss */
+.mr40 {
+  margin-right: 40px !important;
+}
+
+/* line 45, app/assets/stylesheets/margin.css.scss */
+.mr45 {
+  margin-right: 45px !important;
+}
+
+/* line 46, app/assets/stylesheets/margin.css.scss */
+.mr50 {
+  margin-right: 50px !important;
+}
+
+/* line 47, app/assets/stylesheets/margin.css.scss */
+.mr55 {
+  margin-right: 55px !important;
+}
+
+/* line 48, app/assets/stylesheets/margin.css.scss */
+.mr60 {
+  margin-right: 60px !important;
+}
+
+/* line 49, app/assets/stylesheets/margin.css.scss */
+.mr65 {
+  margin-right: 65px !important;
+}
+
+/* line 50, app/assets/stylesheets/margin.css.scss */
+.mr70 {
+  margin-right: 70px !important;
+}
+
+/* line 51, app/assets/stylesheets/margin.css.scss */
+.mr75 {
+  margin-right: 75px !important;
+}
+
+/* line 52, app/assets/stylesheets/margin.css.scss */
+.mr80 {
+  margin-right: 80px !important;
+}
+
+/* line 53, app/assets/stylesheets/margin.css.scss */
+.mr85 {
+  margin-right: 85px !important;
+}
+
+/* line 54, app/assets/stylesheets/margin.css.scss */
+.mr90 {
+  margin-right: 90px !important;
+}
+
+/* line 55, app/assets/stylesheets/margin.css.scss */
+.mr95 {
+  margin-right: 95px !important;
+}
+
+/* line 56, app/assets/stylesheets/margin.css.scss */
+.mr100 {
+  margin-right: 100px !important;
+}
+
+/* line 57, app/assets/stylesheets/margin.css.scss */
+.mr150 {
+  margin-right: 150px !important;
+}
+
+/* line 58, app/assets/stylesheets/margin.css.scss */
+.mr200 {
+  margin-right: 200px !important;
+}
+
+/* line 59, app/assets/stylesheets/margin.css.scss */
+.mr250 {
+  margin-right: 250px !important;
+}
+
+/* line 60, app/assets/stylesheets/margin.css.scss */
+.mr300 {
+  margin-right: 300px !important;
+}
+
+/* line 61, app/assets/stylesheets/margin.css.scss */
+.mr350 {
+  margin-right: 350px !important;
+}
+
+/* line 62, app/assets/stylesheets/margin.css.scss */
+.mr400 {
+  margin-right: 400px !important;
+}
+
+/* line 63, app/assets/stylesheets/margin.css.scss */
+.mr450 {
+  margin-right: 450px !important;
+}
+
+/* line 64, app/assets/stylesheets/margin.css.scss */
+.mr500 {
+  margin-right: 500px !important;
+}
+
+/* line 66, app/assets/stylesheets/margin.css.scss */
+.mb0 {
+  margin-bottom: 0 !important;
+}
+
+/* line 67, app/assets/stylesheets/margin.css.scss */
+.mb5 {
+  margin-bottom: 5px !important;
+}
+
+/* line 68, app/assets/stylesheets/margin.css.scss */
+.mb10 {
+  margin-bottom: 10px !important;
+}
+
+/* line 69, app/assets/stylesheets/margin.css.scss */
+.mb15 {
+  margin-bottom: 15px !important;
+}
+
+/* line 70, app/assets/stylesheets/margin.css.scss */
+.mb20 {
+  margin-bottom: 20px !important;
+}
+
+/* line 71, app/assets/stylesheets/margin.css.scss */
+.mb25 {
+  margin-bottom: 25px !important;
+}
+
+/* line 72, app/assets/stylesheets/margin.css.scss */
+.mb30 {
+  margin-bottom: 30px !important;
+}
+
+/* line 73, app/assets/stylesheets/margin.css.scss */
+.mb35 {
+  margin-bottom: 35px !important;
+}
+
+/* line 74, app/assets/stylesheets/margin.css.scss */
+.mb40 {
+  margin-bottom: 40px !important;
+}
+
+/* line 75, app/assets/stylesheets/margin.css.scss */
+.mb45 {
+  margin-bottom: 45px !important;
+}
+
+/* line 76, app/assets/stylesheets/margin.css.scss */
+.mb50 {
+  margin-bottom: 50px !important;
+}
+
+/* line 77, app/assets/stylesheets/margin.css.scss */
+.mb55 {
+  margin-bottom: 55px !important;
+}
+
+/* line 78, app/assets/stylesheets/margin.css.scss */
+.mb60 {
+  margin-bottom: 60px !important;
+}
+
+/* line 79, app/assets/stylesheets/margin.css.scss */
+.mb65 {
+  margin-bottom: 65px !important;
+}
+
+/* line 80, app/assets/stylesheets/margin.css.scss */
+.mb70 {
+  margin-bottom: 70px !important;
+}
+
+/* line 81, app/assets/stylesheets/margin.css.scss */
+.mb75 {
+  margin-bottom: 75px !important;
+}
+
+/* line 82, app/assets/stylesheets/margin.css.scss */
+.mb80 {
+  margin-bottom: 80px !important;
+}
+
+/* line 83, app/assets/stylesheets/margin.css.scss */
+.mb85 {
+  margin-bottom: 85px !important;
+}
+
+/* line 84, app/assets/stylesheets/margin.css.scss */
+.mb90 {
+  margin-bottom: 90px !important;
+}
+
+/* line 85, app/assets/stylesheets/margin.css.scss */
+.mb95 {
+  margin-bottom: 95px !important;
+}
+
+/* line 86, app/assets/stylesheets/margin.css.scss */
+.mb100 {
+  margin-bottom: 100px !important;
+}
+
+/* line 87, app/assets/stylesheets/margin.css.scss */
+.mb150 {
+  margin-bottom: 150px !important;
+}
+
+/* line 88, app/assets/stylesheets/margin.css.scss */
+.mb200 {
+  margin-bottom: 200px !important;
+}
+
+/* line 89, app/assets/stylesheets/margin.css.scss */
+.mb250 {
+  margin-bottom: 250px !important;
+}
+
+/* line 90, app/assets/stylesheets/margin.css.scss */
+.mb300 {
+  margin-bottom: 300px !important;
+}
+
+/* line 91, app/assets/stylesheets/margin.css.scss */
+.mb350 {
+  margin-bottom: 350px !important;
+}
+
+/* line 92, app/assets/stylesheets/margin.css.scss */
+.mb400 {
+  margin-bottom: 400px !important;
+}
+
+/* line 93, app/assets/stylesheets/margin.css.scss */
+.mb450 {
+  margin-bottom: 450px !important;
+}
+
+/* line 94, app/assets/stylesheets/margin.css.scss */
+.mb500 {
+  margin-bottom: 500px !important;
+}
+
+/* line 95, app/assets/stylesheets/margin.css.scss */
+.mb550 {
+  margin-bottom: 550px !important;
+}
+
+/* line 96, app/assets/stylesheets/margin.css.scss */
+.mb600 {
+  margin-bottom: 600px !important;
+}
+
+/* line 97, app/assets/stylesheets/margin.css.scss */
+.mb650 {
+  margin-bottom: 650px !important;
+}
+
+/* line 98, app/assets/stylesheets/margin.css.scss */
+.mb700 {
+  margin-bottom: 700px !important;
+}
+
+/* line 99, app/assets/stylesheets/margin.css.scss */
+.mb750 {
+  margin-bottom: 750px !important;
+}
+
+/* line 100, app/assets/stylesheets/margin.css.scss */
+.mb800 {
+  margin-bottom: 800px !important;
+}
+
+/* line 101, app/assets/stylesheets/margin.css.scss */
+.mb850 {
+  margin-bottom: 850px !important;
+}
+
+/* line 102, app/assets/stylesheets/margin.css.scss */
+.mb900 {
+  margin-bottom: 900px !important;
+}
+
+/* line 103, app/assets/stylesheets/margin.css.scss */
+.mb950 {
+  margin-bottom: 950px !important;
+}
+
+/* line 105, app/assets/stylesheets/margin.css.scss */
+.ml0 {
+  margin-left: 0 !important;
+}
+
+/* line 106, app/assets/stylesheets/margin.css.scss */
+.ml5 {
+  margin-left: 5px !important;
+}
+
+/* line 107, app/assets/stylesheets/margin.css.scss */
+.ml10 {
+  margin-left: 10px !important;
+}
+
+/* line 108, app/assets/stylesheets/margin.css.scss */
+.ml15 {
+  margin-left: 15px !important;
+}
+
+/* line 109, app/assets/stylesheets/margin.css.scss */
+.ml20 {
+  margin-left: 20px !important;
+}
+
+/* line 110, app/assets/stylesheets/margin.css.scss */
+.ml25 {
+  margin-left: 25px !important;
+}
+
+/* line 111, app/assets/stylesheets/margin.css.scss */
+.ml30 {
+  margin-left: 30px !important;
+}
+
+/* line 112, app/assets/stylesheets/margin.css.scss */
+.ml35 {
+  margin-left: 35px !important;
+}
+
+/* line 113, app/assets/stylesheets/margin.css.scss */
+.ml40 {
+  margin-left: 40px !important;
+}
+
+/* line 114, app/assets/stylesheets/margin.css.scss */
+.ml45 {
+  margin-left: 45px !important;
+}
+
+/* line 115, app/assets/stylesheets/margin.css.scss */
+.ml50 {
+  margin-left: 50px !important;
+}
+
+/* line 116, app/assets/stylesheets/margin.css.scss */
+.ml55 {
+  margin-left: 55px !important;
+}
+
+/* line 117, app/assets/stylesheets/margin.css.scss */
+.ml60 {
+  margin-left: 60px !important;
+}
+
+/* line 118, app/assets/stylesheets/margin.css.scss */
+.ml65 {
+  margin-left: 65px !important;
+}
+
+/* line 119, app/assets/stylesheets/margin.css.scss */
+.ml70 {
+  margin-left: 70px !important;
+}
+
+/* line 120, app/assets/stylesheets/margin.css.scss */
+.ml75 {
+  margin-left: 75px !important;
+}
+
+/* line 121, app/assets/stylesheets/margin.css.scss */
+.ml80 {
+  margin-left: 80px !important;
+}
+
+/* line 122, app/assets/stylesheets/margin.css.scss */
+.ml85 {
+  margin-left: 85px !important;
+}
+
+/* line 123, app/assets/stylesheets/margin.css.scss */
+.ml90 {
+  margin-left: 90px !important;
+}
+
+/* line 124, app/assets/stylesheets/margin.css.scss */
+.ml95 {
+  margin-left: 95px !important;
+}
+
+/* line 125, app/assets/stylesheets/margin.css.scss */
+.ml100 {
+  margin-left: 100px !important;
+}
+
+/* line 126, app/assets/stylesheets/margin.css.scss */
+.ml150 {
+  margin-left: 150px !important;
+}
+
+/* line 127, app/assets/stylesheets/margin.css.scss */
+.ml200 {
+  margin-left: 200px !important;
+}
+
+/* line 128, app/assets/stylesheets/margin.css.scss */
+.ml250 {
+  margin-left: 250px !important;
+}
+
+/* line 129, app/assets/stylesheets/margin.css.scss */
+.ml300 {
+  margin-left: 300px !important;
+}
+
+/* line 130, app/assets/stylesheets/margin.css.scss */
+.ml350 {
+  margin-left: 350px !important;
+}
+
+/* line 131, app/assets/stylesheets/margin.css.scss */
+.ml400 {
+  margin-left: 400px !important;
+}
+
+/* line 132, app/assets/stylesheets/margin.css.scss */
+.ml450 {
+  margin-left: 450px !important;
+}
+
+/* line 133, app/assets/stylesheets/margin.css.scss */
+.ml500 {
+  margin-left: 500px !important;
+}
+
+/* line 135, app/assets/stylesheets/margin.css.scss */
+.mrl0 {
+  margin-right: 0;
+  margin-left: 0 !important;
+}
+
+/* line 136, app/assets/stylesheets/margin.css.scss */
+.mrl5 {
+  margin-right: 5px;
+  margin-left: 5px !important;
+}
+
+/* line 137, app/assets/stylesheets/margin.css.scss */
+.mrl10 {
+  margin-right: 10px;
+  margin-left: 10px !important;
+}
+
+/* line 138, app/assets/stylesheets/margin.css.scss */
+.mrl15 {
+  margin-right: 15px;
+  margin-left: 15px !important;
+}
+
+/* line 139, app/assets/stylesheets/margin.css.scss */
+.mrl20 {
+  margin-right: 20px;
+  margin-left: 20px !important;
+}
+
+/* line 140, app/assets/stylesheets/margin.css.scss */
+.mrl25 {
+  margin-right: 15px;
+  margin-left: 25px !important;
+}
+
+/* line 141, app/assets/stylesheets/margin.css.scss */
+.mrl30 {
+  margin-right: 30px;
+  margin-left: 30px !important;
+}
+
+/* line 142, app/assets/stylesheets/margin.css.scss */
+.mrl35 {
+  margin-right: 15px;
+  margin-left: 35px !important;
+}
+
+/* line 143, app/assets/stylesheets/margin.css.scss */
+.mrl40 {
+  margin-right: 40px;
+  margin-left: 40px !important;
+}
+
+/* line 144, app/assets/stylesheets/margin.css.scss */
+.mrl45 {
+  margin-right: 15px;
+  margin-left: 45px !important;
+}
+
+/* line 145, app/assets/stylesheets/margin.css.scss */
+.mrl50 {
+  margin-right: 50px;
+  margin-left: 50px !important;
+}
+
+/* line 146, app/assets/stylesheets/margin.css.scss */
+.mrl55 {
+  margin-right: 15px;
+  margin-left: 55px !important;
+}
+
+/* line 147, app/assets/stylesheets/margin.css.scss */
+.mrl60 {
+  margin-right: 60px;
+  margin-left: 60px !important;
+}
+
+/* line 148, app/assets/stylesheets/margin.css.scss */
+.mrl65 {
+  margin-right: 15px;
+  margin-left: 65px !important;
+}
+
+/* line 149, app/assets/stylesheets/margin.css.scss */
+.mrl70 {
+  margin-right: 70px;
+  margin-left: 70px !important;
+}
+
+/* line 150, app/assets/stylesheets/margin.css.scss */
+.mrl75 {
+  margin-right: 15px;
+  margin-left: 75px !important;
+}
+
+/* line 151, app/assets/stylesheets/margin.css.scss */
+.mrl80 {
+  margin-right: 80px;
+  margin-left: 80px !important;
+}
+
+/* line 152, app/assets/stylesheets/margin.css.scss */
+.mrl85 {
+  margin-right: 15px;
+  margin-left: 85px !important;
+}
+
+/* line 153, app/assets/stylesheets/margin.css.scss */
+.mrl90 {
+  margin-right: 90px;
+  margin-left: 90px !important;
+}
+
+/* line 154, app/assets/stylesheets/margin.css.scss */
+.mrl85 {
+  margin-right: 15px;
+  margin-left: 95px !important;
+}
+
+/* line 155, app/assets/stylesheets/margin.css.scss */
+.mrl100 {
+  margin-right: 100px;
+  margin-left: 100px !important;
+}
+
+/* line 156, app/assets/stylesheets/margin.css.scss */
+.mrl150 {
+  margin-right: 150px;
+  margin-left: 150px !important;
+}
+
+/* line 157, app/assets/stylesheets/margin.css.scss */
+.mrl200 {
+  margin-right: 200px;
+  margin-left: 200px !important;
+}
+
+/* line 158, app/assets/stylesheets/margin.css.scss */
+.mrl250 {
+  margin-right: 250px;
+  margin-left: 250px !important;
+}
+
+/* line 159, app/assets/stylesheets/margin.css.scss */
+.mrl300 {
+  margin-right: 300px;
+  margin-left: 300px !important;
+}
+
+/* line 160, app/assets/stylesheets/margin.css.scss */
+.mrl350 {
+  margin-right: 350px;
+  margin-left: 350px !important;
+}
+
+/* line 161, app/assets/stylesheets/margin.css.scss */
+.mrl400 {
+  margin-right: 400px;
+  margin-left: 400px !important;
+}
+
+/* line 162, app/assets/stylesheets/margin.css.scss */
+.mrl450 {
+  margin-right: 450px;
+  margin-left: 450px !important;
+}
+
+/* line 163, app/assets/stylesheets/margin.css.scss */
+.mrl500 {
+  margin-right: 500px;
+  margin-left: 500px !important;
+}
+
+/* line 165, app/assets/stylesheets/margin.css.scss */
+.mtb0 {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+}
+
+/* line 166, app/assets/stylesheets/margin.css.scss */
+.mtb5 {
+  margin-top: 5px;
+  margin-bottom: 5px !important;
+}
+
+/* line 167, app/assets/stylesheets/margin.css.scss */
+.mtb10 {
+  margin-top: 10px;
+  margin-bottom: 10px !important;
+}
+
+/* line 168, app/assets/stylesheets/margin.css.scss */
+.mtb15 {
+  margin-top: 15px;
+  margin-bottom: 15px !important;
+}
+
+/* line 169, app/assets/stylesheets/margin.css.scss */
+.mtb20 {
+  margin-top: 20px;
+  margin-bottom: 20px !important;
+}
+
+/* line 170, app/assets/stylesheets/margin.css.scss */
+.mtb25 {
+  margin-top: 25px;
+  margin-bottom: 25px !important;
+}
+
+/* line 171, app/assets/stylesheets/margin.css.scss */
+.mtb30 {
+  margin-top: 30px;
+  margin-bottom: 30px !important;
+}
+
+/* line 172, app/assets/stylesheets/margin.css.scss */
+.mtb35 {
+  margin-top: 35px;
+  margin-bottom: 35px !important;
+}
+
+/* line 173, app/assets/stylesheets/margin.css.scss */
+.mtb40 {
+  margin-top: 40px;
+  margin-bottom: 40px !important;
+}
+
+/* line 174, app/assets/stylesheets/margin.css.scss */
+.mtb45 {
+  margin-top: 45px;
+  margin-bottom: 45px !important;
+}
+
+/* line 175, app/assets/stylesheets/margin.css.scss */
+.mtb50 {
+  margin-top: 50px;
+  margin-bottom: 50px !important;
+}
+
+/* line 176, app/assets/stylesheets/margin.css.scss */
+.mtb55 {
+  margin-top: 55px;
+  margin-bottom: 55px !important;
+}
+
+/* line 177, app/assets/stylesheets/margin.css.scss */
+.mtb60 {
+  margin-top: 60px;
+  margin-bottom: 60px !important;
+}
+
+/* line 178, app/assets/stylesheets/margin.css.scss */
+.mtb65 {
+  margin-top: 65px;
+  margin-bottom: 65px !important;
+}
+
+/* line 179, app/assets/stylesheets/margin.css.scss */
+.mtb70 {
+  margin-top: 70px;
+  margin-bottom: 70px !important;
+}
+
+/* line 180, app/assets/stylesheets/margin.css.scss */
+.mtb75 {
+  margin-top: 75px;
+  margin-bottom: 75px !important;
+}
+
+/* line 181, app/assets/stylesheets/margin.css.scss */
+.mtb80 {
+  margin-top: 80px;
+  margin-bottom: 80px !important;
+}
+
+/* line 182, app/assets/stylesheets/margin.css.scss */
+.mtb85 {
+  margin-top: 85px;
+  margin-bottom: 85px !important;
+}
+
+/* line 183, app/assets/stylesheets/margin.css.scss */
+.mtb90 {
+  margin-top: 90px;
+  margin-bottom: 90px !important;
+}
+
+/* line 184, app/assets/stylesheets/margin.css.scss */
+.mtb95 {
+  margin-top: 95px;
+  margin-bottom: 95px !important;
+}
+
+/* line 185, app/assets/stylesheets/margin.css.scss */
+.mtb100 {
+  margin-top: 100px;
+  margin-bottom: 100px !important;
+}
+
+/* line 186, app/assets/stylesheets/margin.css.scss */
+.mtb150 {
+  margin-top: 150px;
+  margin-bottom: 150px !important;
+}
+
+/* line 187, app/assets/stylesheets/margin.css.scss */
+.mtb200 {
+  margin-top: 200px;
+  margin-bottom: 200px !important;
+}
+
+/* line 188, app/assets/stylesheets/margin.css.scss */
+.mtb250 {
+  margin-top: 250px;
+  margin-bottom: 250px !important;
+}
+
+/* line 189, app/assets/stylesheets/margin.css.scss */
+.mtb300 {
+  margin-top: 300px;
+  margin-bottom: 300px !important;
+}
+
+/* line 190, app/assets/stylesheets/margin.css.scss */
+.mtb350 {
+  margin-top: 350px;
+  margin-bottom: 350px !important;
+}
+
+/* line 191, app/assets/stylesheets/margin.css.scss */
+.mtb400 {
+  margin-top: 400px;
+  margin-bottom: 400px !important;
+}
+
+/* line 192, app/assets/stylesheets/margin.css.scss */
+.mtb450 {
+  margin-top: 450px;
+  margin-bottom: 450px !important;
+}
+
+/* line 193, app/assets/stylesheets/margin.css.scss */
+.mtb500 {
+  margin-top: 500px;
+  margin-bottom: 500px !important;
+}
+
+/* line 194, app/assets/stylesheets/margin.css.scss */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+/* line 200, app/assets/stylesheets/margin.css.scss */
+table th {
+  background-color: #ffe4d4;
+  color: #f94144;
+  border: 2px solid #f94144;
+}
+
+/* line 206, app/assets/stylesheets/margin.css.scss */
+table td {
+  background-color: #fff1e6;
+  color: #f3722c;
+  border: 2px solid #f3722c;
+}
+
+@media (max-width: 400px) {
+  /* line 213, app/assets/stylesheets/margin.css.scss */
+  th {
+    font-size: 10px;
+  }
+}
+
+/* line 216, app/assets/stylesheets/margin.css.scss */
+.notice {
+  background-color: #ccf;
+}
+
+/* line 219, app/assets/stylesheets/margin.css.scss */
+.ui.card > .image:not(.ui) > img {
+  border: none;
+  width: 50%;
+}

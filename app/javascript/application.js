@@ -4,7 +4,6 @@ import "controllers"
 // = require semantic-ui
 //= link posts.js
 //= link posts2.js
-
-
+//= link posts3.js
 
 

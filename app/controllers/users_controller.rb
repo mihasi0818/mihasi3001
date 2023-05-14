@@ -123,15 +123,7 @@ class UsersController < ApplicationController
       end
     end
     
-    def new_guest
-      if current_user
-        redirect_to current_user, alert: "すでにログインしています" 
-      else
-        user = User.new_guest
-        log_in user
-        redirect_to root_url, notice: "ゲストとしてログインしました"
-      end
-    end
+    
   
     def logout
       reset_session
@@ -172,10 +164,10 @@ class UsersController < ApplicationController
     def set_pagy_and_users
       @pagy, @users = pagy(@users, items: 10, page: params[:page])
     end
-
-   def set_pagy_and_posts
-    @pagy, @posts = pagy(@posts, items: 10, page: params[:page])
-  end
-    
+    def set_pagy_and_posts
+      @pagy, @posts = pagy(@posts, items: 10, page: params[:page])
+    end
+      
+  
 end
   

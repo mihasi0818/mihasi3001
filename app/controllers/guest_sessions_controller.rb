@@ -7,7 +7,7 @@ class GuestSessionsController < ApplicationController
       session[:user_id] = user.id
       flash[:notice] = "ゲストユーザーとしてログインしました"
       redirect_to root_path
-    # コントローラーの実装
+   
     end
     
     end
