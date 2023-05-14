@@ -90,3 +90,5 @@ gem 'net-smtp'
 gem 'pg', '~> 1.3.0'
 gem 'puma_worker_killer'
 gem 'rails_12factor', group: :production
+gem 'ransack'
+gem 'googleauth'

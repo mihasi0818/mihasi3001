@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'google_login_api/callback'
+  get 'static_pages/before_login'
+  get 'static_pages/after_login'
   get 'notifications/index'
   post 'posts' => 'posts#create'
   root "posts#index"
@@ -13,6 +16,16 @@ Rails.application.routes.draw do
   get"logout", to: "sessions#destroy"
   get 'account_activations/:id/edit', to: 'account_activations#edit', as: 'edit_account_activation'
   
+
+  get '/auth/google/callback', to: 'google_login#callback'
+post '/auth/google/callback', to: 'google_login#callback'
+get '/auth/failure', to: 'google_login#failure'
+post '/google_login_api/callback', to: 'google_login_api#callback'
+get '/google_login_api/callback', to: 'google_login_api#callback'
+post '/', to: 'google_login#callback'
+
+
+
   resources :posts do
     resources :comments, only: [:create, :destroy]
     resources :likes, only: [:create, :destroy]
@@ -35,8 +48,15 @@ Rails.application.routes.draw do
       get :most_liked
     end
   end
-
 resources :account_activations, only: [:edit]
+
 resources :password_resets, only: [:new, :create, :edit, :update]
+resources :posts do
+  collection do
+    get 'search'
+  end
+end
+resources :google_login_api
 
 end
+

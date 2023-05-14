@@ -1,123 +1,189 @@
+<div>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <% if notice.present? %>
+    <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
+  <% end %>
+  <!-- ここにログイン後のページのコンテンツを追加する -->
+
+
+
 <div class="box">
   <p><%= link_to 'お知らせ', '/notifications' %></p>
   <h2>みんなで</h2>
   <h1>モバレ攻略サイト</h1>
-    <h2>投稿一覧</h2>
     <% if current_user %>
       <p>ログイン中: <%= current_user.name %></p>
     <% else %>
       <p>ログアウト中</p>
     <% end %>
   
-    
-  <% if logged_in? %>
-    <p><%= link_to "さぁ投稿しよう!!", new_post_path, :class => "link" %></p>
+    <p>注意ゲストユーザーは共有です。投稿を削除することはできません。</p>
+    <% if logged_in? %>
+    <%= link_to "さぁ投稿しよう!!", new_post_path, class: "button-link" %>
   <% else %>
-    <p><%= link_to "ログイン後に投稿！！", login_path, :class => "link" %></p>
+    <%= link_to "ログイン後に投稿！！", login_path, class: "button-link" %>
   <% end %>
-    
+  
     <p>本日の日付: <%= Date.current.strftime('%Y/%-m/%-d') %></p>
+    <div class="count2">
+
+      <%= image_tag("S28_Skin_Tag.webp") %>
+<% if @remaining_days.present? && @remaining_days > 0 %>
+  <p>残り<%= @remaining_days %>日</p>
+<% else %>
+  <p>カウントダウンが終了しました</p>
+<% end %>
+
     <p class="count">件数: <%= Post.count %></p>
-  
   </div>
-    <%= form_tag posts_path, method: 'get' do %>
-    <label>並び替え</label>
-      <!-- したのコード逆に新しいと古いがねなってしまったよ-->
-    <%= select_tag :order_by, options_for_select([['new', 'created_at_desc'], ['old', 'created_at_asc'], ['like', 'likes_desc']], params[:order_by]), include_blank: true %>
-    <%= submit_tag 'Sort' %>
-  <% end %>
-    <% @posts.each do |post| %>
-   
-    <table>
-        <thead>
-          <tr>
-           <th><%= post.created_at.strftime('%Y/%m/%d %H:%M') %></th> 
-            <th class="name"><div class="name">user名</div></th>
-            <td><div class="name"><% if current_user %>
-              <p class="user_name"><%= post.user.name %></p>
-            <% else %>
-              <p>ログアウト中</p>
-            <% end %></div></td>
-            <th><div class="size"><%= link_to "詳細", post, class: "size" %></div></th>
-          </tr>
-          <tr>
-            <th>おすすめ（PICK）</th>
-            <th>有利(advantageous)</th>
-            <th class="last">不利(disadvantageous)</th>
-            <th><p><%= pluralize(post.likes.count, 'Like') %></p></th> 
-          </tr>
-        </thead>
-        
-            <tbody>
-            <tr>
-            <td><%=image_tag(post.image_url1, size: "38x38") %>
-            </td>
-            <td>
-              <%= image_tag(post.image_url2, size: "38x38") %>
-  
-              <% if post.image_url22.present? %>
-              <%= image_tag(post.image_url22, size: "38x38") %>
+</div>
+<%= form_with(url: posts_path, method: :get, local: true) do |form| %>
+  <%= form.text_field :search, placeholder: '検索キーワード' %>
+  <%= form.submit '検索' %>
+<% end %>
+
+
+<!-- 並び替えセレクトボックス -->
+<%= form_with(url: posts_path, method: :get, local: true) do |form| %>
+  <%= form.select :order_by, [['新しい順', 'created_at_desc'], ['古い順', 'created_at_asc'], ['いいねの多い順', 'likes_desc']], selected: params[:order_by], prompt: '並び替え' %>
+  <%= form.submit '並び替え' %>
+<% end %>
+
+
+<h2>投稿一覧</h2>
+<% @posts.each do |post| %>
+  <table>
+    <thead>
+      <% name = post.name %>
+      <tr>
+        <th><%= post.created_at.strftime('%Y/%m/%d %H:%M') %></th> 
+        <th class="name"><div class="name">user名</div></th>
+        <td><div class="name"><% if current_user %>
+          <p class="user_name"><%= post.user.name %></p>
+        <% else %>
+          <p>ログアウト中</p>
+        <% end %></div></td>
+        <th><div class="size"><%= link_to "詳細", post, class: "size" %></div></th>
+      </tr>
+      <tr>
+        <th>おすすめ（PICK）</th>
+        <th>有利(advantageous)</th>
+        <th class="last">不利(disadvantageous)</th>
+        <th><p><%= pluralize(post.likes.count, 'Like') %></p></th> 
+      </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+          <td>
+            <%= image_tag(post.image_url1, size: "38x38") %>
+            <% if post.image_url40.present? %>
+            <%= image_tag(post.image_url40, size: "38x38") %>
             <% end %>
-            
-            <% if post.image_url23.present? %>
-            <%= image_tag(post.image_url23, size: "38x38") %>
-          <% end %>
-            </td>
-            <td class="last">
-              <%= image_tag(post.image_url3, size: "38x38") %>
-              <% if post.image_url33.present? %>
-              <%= image_tag(post.image_url33, size: "38x38") %>
-            <% end %>
-            <% if post.image_url34.present? %>
-            <%= image_tag(post.image_url34, size: "38x38") %>
-          <% end %>
+          </td>
           
-            </td>
-    
+          <td>
+            <%= image_tag(post.image_url2, size: "38x38") %>
+            <% if post.image_url22.present? %>
+            <%= image_tag(post.image_url22, size: "38x38") %>
+          <% end %>
+          <% if post.image_url23.present? %>
+          <%= image_tag(post.image_url23, size: "38x38") %>
+        <% end %>
+         
+          </td>
+          <td class="last">
+            <%= image_tag(post.image_url3, size: "38x38") %>
+            <% if post.image_url33.present? %>
+            <%= image_tag(post.image_url33, size: "38x38") %>
+          <% end %>
+          <% if post.image_url34.present? %>
+          <%= image_tag(post.image_url34, size: "38x38") %>
+        <% end %>
+          </td>
+
             <td>
               <% if current_user == post.user %>
-                <%= button_to "削除", post_path(post), method: :delete, data: { confirm: "本当に削除しますか？" }, class: "btn btn-danger animated shake danger" %>
-              <% end %>
-  
-           
+              <%= button_to "削除", post_path(post), method: :delete, data: { confirm: "本当に削除しますか？" }, class: "btn btn-danger animated shake danger" %>
+            <% end %>
+            </td>
           </tr>
         </tbody>
       </table>
+<table>
+  <div class="teampick">
+    <th>チーム構成</th>
+    <td class="team1">
+       <%= image_tag(post.image_url1, size: "38x38") %>
+       <% if post.image_url41.present? %>
+     
+           <%= image_tag(post.image_url41, size: "38x38") %>
+       <% end %>
+   
+       <% if post.image_url42.present? %>
+           <%= image_tag(post.image_url42, size: "38x38") %>
+         
+       <% end %>
+   
+       <% if post.image_url43.present? %>
+           <%= image_tag(post.image_url43, size: "38x38") %>
+      
+       <% end %>
+   
+       <% if post.image_url44.present? %>
+         
+       
+           <%= image_tag(post.image_url44, size: "38x38") %>
+        
+       <% end %>
+     
+   </td>
+ </div>
+
+</table>
+  <% end %>
+
+  <nav class="pagination justify-content-center">
+    <span class="page-item prev <%= "disabled" if @pagy.prev.nil? %>">
+      <% if @pagy.prev %>
+        <%= link_to "前", url_for(page: @pagy.prev, only_path: true), rel: "prev", class: 'page-link' %>
+      <% else %>
+        <span class="page-link disabled">前</span>
       <% end %>
-      <nav class="pagination justify-content-center">
-        <span class="page-item prev <%= "disabled" if @pagy.prev.nil? %>">
-          <% if @pagy.prev %>
-            <%= link_to "前", url_for(page: @pagy.prev, only_path: true), rel: "prev", class: 'page-link' %>
-          <% else %>
-            <span class="page-link disabled">前</span>
-          <% end %>
-        </span>
-        <% if @pagy.present? %>
-          <% @pagy.series.each do |item| %>
-            <% if item.is_a? Integer %>
-              <span class="page-item <%= "active" if item == @pagy.page %>"><%= link_to item, url_for(page: item, only_path: true), class: 'page-link' %></span>
-            <% else %>
-              <span class="page-item <%= "gap" %>">&#x2026;</span>
-            <% end %>
-          <% end %>
+    </span>
+    <% if @pagy.present? %>
+      <% @pagy.series.each do |item| %>
+        <% if item.is_a? Integer %>
+          <span class="page-item <%= "active" if item == @pagy.page %>">
+            <%= link_to item, url_for(page: item, only_path: true), class: 'page-link' %>
+          </span>
+        <% else %>
+          <span class="page-item <%= "gap" %>">&#x2026;</span>
         <% end %>
-        <span class="page-item next <%= "disabled" if @pagy.next.nil? %>">
-          <% if @pagy.next %>
-            <%= link_to "次", url_for(page: @pagy.next, only_path: true), rel: "next", class: 'page-link' %>
-          <% else %>
-            <span class="page-link disabled">次</span>
-          <% end %>
-        </span>
-      </nav>
-      
-      <% if logged_in? %>
-      <p><%= link_to "さぁ投稿しよう!!", new_post_path, :class => "link" %></p>
-    <% else %>
-      <p><%= link_to "ログイン後に投稿！！", login_path, :class => "link" %></p>
+      <% end %>
     <% end %>
-      
-   <!-- 以下は著作権の引用元からのサンプルコードです -->
+    <span class="page-item next <%= "disabled" if @pagy.next.nil? %>">
+      <% if @pagy.next %>
+        <%= link_to "次", url_for(page: @pagy.next, only_path: true), rel: "next", class: 'page-link' %>
+      <% else %>
+        <span class="page-link disabled">次</span>
+      <% end %>
+    </span>
+  </nav>
   
+
+
+
+      
+    
+
+      <% if logged_in? %>
+    <%= link_to "さぁ投稿しよう!!", new_post_path, class: "button-link" %>
+  <% else %>
+    <%= link_to "ログイン後に投稿！！", login_path, class: "button-link" %>
+  <% end %>
+</div>   
+
   <style>
     pre{
       color: #00ff15;
@@ -184,10 +250,47 @@
 @media (max-width: 412px) {
     /* 前へ・次へボタンを上下に並べる */
     img {
-     width: 35px;
-     height: 35px;
+     width: 30px;
+     height: 30px;
     }
   }
+  .center {
+  margin: 0 auto;
+  text-align: center;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #47952f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+.team{
+display: flex;
+}
+@media (max-width: 500px) {
+  .td {
+    width: 40%;
+  }
+}
+.center{
+  width: 100px;
+}
+
+.count{
+  display: flex;
+  justify-content: center;
+}
+.teampick{
+  margin-top: -10px;
+}
+
   </style>
   
   

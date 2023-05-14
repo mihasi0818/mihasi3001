@@ -17,32 +17,55 @@
   <div class="comment3">
   <td class="post-info">
   <span class="comment"> <p><%= sanitize(@post.content) %></p></span>
-   
 
   </td>
   
 
 </tr>
 </div>
-<main>
+<main>            
+           <div>
+                <%= image_tag(@post.image_url1, size: "55x55") %>
+              <% if @post.image_url41.present? %>
+              
+                  <%= image_tag(@post.image_url41, size: "55x55") %>
+              <% end %>
+          
+              <% if @post.image_url42.present? %>
+               
+                  <%= image_tag(@post.image_url42, size: "55x55") %>
+        
+              <% end %>
+          
+              <% if @post.image_url43.present? %>
+                
+                  <%= image_tag(@post.image_url43, size: "55x55") %>
+             
+                  
+              <% end %>
+          
+              <% if @post.image_url44.present? %>
+               
+                  <%= image_tag(@post.image_url44, size: "55x55") %>
+          
+              <% end %>
+            </div>
+            <h2>おすすめ構成</h2>
+
   <tr class="fade-info">
     <td class="disadvantage">
       <div class="image">
-       <div>
-         <%= @post.image_url3.present? ? image_tag(@post.image_url3, size: "80x80") : '' %>
-       </div>
-       
-       <% if @post.image_url33.present? %>
-         <%= image_tag(@post.image_url33, size: "80x80") %>
-       <% end %>
-       
+        <% if @post.image_url3.present? %>
+        <%= image_tag(@post.image_url3, size: "55x55") %>
+        <% end %>
+      <% if @post.image_url33.present? %>
+      <%= image_tag(@post.image_url33, size: "55x55") %>
+    <% end %>
        <% if @post.image_url34.present? %>
-         <%= image_tag(@post.image_url34, size: "80x80") %>
+         <%= image_tag(@post.image_url34, size: "55x55") %>
        <% end %>
-       
       </div>
       <h2>不利(disadvantage)</h2>
-
     </td>
   </tr>
 
@@ -50,18 +73,18 @@
     <td class="advantage">
 
       <div class="image">
-        <div>
-          <%= @post.image_url2.present? ? image_tag(@post.image_url2, size: "80x80") : '' %>
-        </div>
-
+          <% if @post.image_url2.present? %>
+          <%= image_tag(@post.image_url2, size: "55x55") %>
+        <% end %>
+      
         <% if @post.image_url22.present? %>
-          <%= image_tag(@post.image_url22, size: "80x80") %>
+          <%= image_tag(@post.image_url22, size: "55x55") %>
         <% end %>
 
         <% if @post.image_url23.present? %>
-          <%= image_tag(@post.image_url23, size: "80x80") %>
+          <%= image_tag(@post.image_url23, size: "55x55") %>
         <% end %>
-
+       
       </div>
       <h2>有利(advantage)</h2>
     </td>
@@ -69,15 +92,17 @@
 
   <tr class="fade-info">
     <td class="recommendation">
-      <div class="image">
-        <%= @post.image_url1.present? ? image_tag(@post.image_url1, size: "80x80") : '' %>
-      </div>
+        <%= @post.image_url1.present? ? image_tag(@post.image_url1, size: "60x60") : '' %>
       <h2>おすすめ(PICK)</h2>
     </td>
   </tr>
+  <td>
+    <% if @post.image_url40.present? %>
+    <%= image_tag(@post.image_url40, size: "55x55") %>
+    <% end %>
+  </td>
 </main>
-
-
+           
 <!-- post show.html.erb -->
 <ol>
 
@@ -108,7 +133,6 @@
   <%= form.text_area :content, placeholder: 'コメントを入力してください', rows: "6" %>
   <%= form.submit 'コメント投稿' , class: 'comment2'%>
 <% end %>
-
 
 
 
@@ -177,8 +201,9 @@ main{
  
 }
 
-  
-
+.team{
+  display: flex;
+}
 .comment3{
   width: 45%;
 background-color: rgb(54, 205, 205);

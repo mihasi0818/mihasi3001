@@ -550,6 +550,8 @@ input[type=radio]+label:before {
     display: flex;
     justify-content: center;
   }
+  
+
   main{
     width: 100%;
     border: 5px solid rgb(71, 2, 136);
